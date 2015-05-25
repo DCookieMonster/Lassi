@@ -4,6 +4,7 @@ import yaml
 import MySQLdb
 import datetime
 from dateutil.parser import parse
+#from incentive.runner import  getTheBestForTheUser
 def sql(user_id, city_name, country_name, project, subjects, created_at):
     # connect
     conn = MySQLdb.connect(host="localhost", user="root", passwd="9670", db="streamer")
@@ -16,12 +17,12 @@ def sql(user_id, city_name, country_name, project, subjects, created_at):
                        (user_id,project,subjects,time,country_name,city_name))
         conn.commit()
     except MySQLdb.Error as e:
+        print e
         conn.rollback()
     conn.close()
 
 
 def stream():
-
     headers = {'Accept': 'application/vnd.zooevents.stream.v1+json'}
     url = 'http://event.zooniverse.org/classifications'
     r = requests.get(url, headers=headers,stream=True)
@@ -35,11 +36,7 @@ def stream():
                 #TODO: Create DB for this streaming
                 if (x['project']=="galaxy_zoo"):
                     sql(x['user_id'],x['city_name'],x['country_name'],x['project'],x['subjects'],x['created_at'])
-
-
-
-
-
+                    print "{0} - User:{1} Record added.\n".format(x['created_at'], x['user_id'])
 
 def Pusher(userId,projectID,cohort_id,preconfigured_id,text_message,intervention_channel):
     with requests.Session() as c:

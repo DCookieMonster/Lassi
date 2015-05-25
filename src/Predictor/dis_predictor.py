@@ -37,7 +37,7 @@ class dis_predictor:
         self.user_past_session_stats = []  # past_sessions_count, total_tasks_count, total_sessions_time, total_dwell_time
         #'/home/eran/Documents/Lassi/src/Algorithem/Model/dismodel.pkl'
         #'/home/ise/Model/dismodel.pkl'
-        self.clf = joblib.load('/home/ise/Model/dismodel.pkl')
+        self.clf = joblib.load('/home/eran/Documents/Lassi/src/Algorithem/Model/dismodel.pkl')
         logging.info("Finished Loading  Model")
 
     def fe(self, user_id_str, cteated_at_str):

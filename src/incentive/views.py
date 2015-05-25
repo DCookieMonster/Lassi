@@ -1,11 +1,9 @@
-from django.shortcuts import render, render_to_response, RequestContext, HttpResponseRedirect
+
 from django.contrib import messages
-import json
-from django.http import HttpResponse
+
 from django.contrib.auth.models import User, Group
 from rest_framework import viewsets
-from serializers import UserSerializer, GroupSerializer
-from django.http import HttpResponse
+from django.http import HttpResponse, StreamingHttpResponse
 from django.views.decorators.csrf import csrf_exempt
 from rest_framework.renderers import JSONRenderer
 from rest_framework.parsers import JSONParser
@@ -14,16 +12,12 @@ from serializers import IncentiveSerializer,UserSerializer
 from rest_framework.decorators import detail_route
 from rest_framework import renderers,permissions,status,generics, mixins
 from permissions import IsOwnerOrReadOnly
-from django.http import Http404
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework.decorators import api_view
-from rest_framework.reverse import reverse
 from StringIO import StringIO
-import urllib2,os,json
-import xml.etree.ElementTree as ET
+import urllib2,json
 from rest_framework.authtoken.models import Token
-import logging
 
 from django.shortcuts import render_to_response
 from django.template import RequestContext
@@ -33,10 +27,10 @@ from django.core.urlresolvers import reverse
 from models import Document
 from forms import DocumentForm
 import MySQLdb
-from bson import json_util
 from forms import IncentiveFrom
-import datetime
-from dateutil.parser import parse
+from json import JSONEncoder
+
+
 @csrf_exempt
 def dashStream(request):
     conn = MySQLdb.connect(host="localhost", user="root", passwd="9670", db="streamer")
@@ -44,8 +38,6 @@ def dashStream(request):
     cursor = conn.cursor()
     try:
         data=[]
-        # cursor.execute("""SELECT user_id,created_at FROM stream where created_at>=%s""",
-        #                (datetime))
         cursor.execute("SELECT user_id,created_at FROM stream WHERE created_at>=%s"%(datetimeO))
 
         rows = cursor.fetchall()
@@ -365,3 +357,42 @@ def userProfile(request):
         'profilePage.html',locals(),
         context_instance=RequestContext(request)
     )
+
+from django.views.decorators.http import condition
+
+
+@condition(etag_func=None)
+def stream_response(request):
+    resp = StreamingHttpResponse(stream_response_generator())
+    return resp
+
+
+
+def stream_response_generator():
+        try:
+            conn = MySQLdb.connect(host="localhost", user="root", passwd="9670", db="streamer")
+            conn.autocommit(True)
+            cursor = conn.cursor()
+        except:
+            return
+        while True:
+            cursor.execute("SELECT id,user_id,created_at,intervention_id FROM stream WHERE streamed IS NULL and intervention_id is Not NULL")
+            rows = cursor.fetchall()
+            if len(rows) == 0:
+                continue
+            for row in rows:
+                id = row[0]
+                user_id = row[1]
+                created_at = row[2]
+                intervention_id = row[3]
+                jsonToStream = JSONEncoder().encode({
+                    "id": str(id),
+                    "user_id": str(user_id),
+                    "created_at": str(created_at),
+                    "intervention_id": str(intervention_id)
+                })
+                try:
+                    yield jsonToStream
+                    cursor.execute("update stream set streamed=%s where id=%s", ('y', id))
+                except:
+                    continue

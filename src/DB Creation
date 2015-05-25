@@ -1,0 +1,12 @@
+CREATE TABLE IF NOT EXISTS `stream` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `user_id` varchar(250) NOT NULL,
+  `project` varchar(250) NOT NULL,
+  `subjects` varchar(250) DEFAULT NULL,
+  `created_at` datetime NOT NULL,
+  `country_name` varchar(250) DEFAULT NULL,
+  `city_name` varchar(250) DEFAULT NULL,
+  `intervention_id` varchar(250) DEFAULT NULL,
+  `streamed` varchar(1) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+)

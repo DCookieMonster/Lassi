@@ -80,6 +80,7 @@ urlpatterns = [
     url(r'^getIncUser/$', 'incentive.views.getUserID', name='getIncUser'),
     url(r'^dash/pages/dash.html', views.dash,name='dash'),
     url(r'^dashStream/$', views.dashStream,name='dashStream'),
+    url(r'^streamResponse/$', views.stream_response,name='streamResponse'),
 
 
 ]

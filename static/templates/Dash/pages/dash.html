@@ -361,7 +361,7 @@
                         }
 
                         table2.row.add([
-                                    userId,
+                                    userId+":",
                                     arr['message']]
                         ).draw();
                         if (arr['message'] != "Staying") {
@@ -405,10 +405,14 @@
                         ).draw();
             }
         }
+
+
         var table2=$('#dataTables1').DataTable();
         var date=new Date().toISOString().slice(0,10)
         var time=new Date().toISOString().slice(11,19)
         var post="\""+date+" "+time+"\""
+
+
         function users(){
 
             bar.setData([
@@ -422,8 +426,6 @@
                 async:false,
                 method: 'POST',
                 success: function(msg) {
-//                    var tableRef = document.getElementById('dataTables').getElementsByTagName('tbody')[0];
-//                    tableRef.innerHTML=""
                     var arr=  JSON.parse(msg);
 
                     var table=$('#dataTables').DataTable();
@@ -440,12 +442,7 @@
                         ).draw();
 
 
-lOrs(entry['user_id'],  entry['created_at']);
-
-
-
-
-
+                        lOrs(entry['user_id'],  entry['created_at']);
                     });
                 }
 

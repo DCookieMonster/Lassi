@@ -1,12 +1,7 @@
 from django.db import models
-from django.utils.encoding  import smart_unicode
-from pygments.formatters.html import HtmlFormatter
-from pygments import highlight
 from pygments.lexers import get_all_lexers
 from pygments.styles import get_all_styles
-from pygments.lexers import get_lexer_by_name
 # Create your models here.
-from django.contrib import admin
 
 LEXERS = [item for item in get_all_lexers() if item[1]]
 LANGUAGE_CHOICES = sorted([(item[1][0], item[0]) for item in LEXERS])
