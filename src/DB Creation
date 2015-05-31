@@ -7,6 +7,6 @@ CREATE TABLE IF NOT EXISTS `stream` (
   `country_name` varchar(250) DEFAULT NULL,
   `city_name` varchar(250) DEFAULT NULL,
   `intervention_id` varchar(250) DEFAULT NULL,
-  `streamed` varchar(1) DEFAULT NULL,
+  `local_time` datetime NOT NULL,
   PRIMARY KEY (`id`)
 )

@@ -29,6 +29,7 @@ from forms import DocumentForm
 import MySQLdb
 from forms import IncentiveFrom
 from json import JSONEncoder
+import datetime
 
 
 @csrf_exempt
@@ -366,7 +367,10 @@ def stream_response(request):
     resp = StreamingHttpResponse(stream_response_generator())
     return resp
 
-
+def stream_response_generator2():
+    for x in xrange(1, 11):
+        yield x
+        yield '\n'
 
 def stream_response_generator():
         try:
@@ -375,12 +379,17 @@ def stream_response_generator():
             cursor = conn.cursor()
         except:
             return
+        local_time = datetime.datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S')
         while True:
-            cursor.execute("SELECT id,user_id,created_at,intervention_id FROM stream WHERE streamed IS NULL and intervention_id is Not NULL")
+            cursor.execute('SELECT id,user_id,created_at,intervention_id FROM stream WHERE (local_time>"%s") and intervention_id is Not NULL'%local_time)
             rows = cursor.fetchall()
             if len(rows) == 0:
                 continue
+            local_time = datetime.datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S')
             for row in rows:
+                if (row is None) or (len(row)<4):
+                    print row
+                    continue
                 id = row[0]
                 user_id = row[1]
                 created_at = row[2]
@@ -391,8 +400,10 @@ def stream_response_generator():
                     "created_at": str(created_at),
                     "intervention_id": str(intervention_id)
                 })
+                if created_at.strftime('%Y-%m-%d %H:%M:%S')>local_time:
+                    local_time = (created_at + datetime.timedelta(seconds=1)).strftime('%Y-%m-%d %H:%M:%S')
                 try:
                     yield jsonToStream
-                    cursor.execute("update stream set streamed=%s where id=%s", ('y', id))
+                    yield "\n"
                 except:
                     continue

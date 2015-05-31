@@ -5,13 +5,7 @@ import requests
 import json
 from dis_predictor import dis_predictor
 
-#dis_predictor
-#import numpy as np
-#import numpy
-#from sklearn.externals import joblib
-#import logging
-#import datetime
-
+import datetime
 
 
 
@@ -40,9 +34,11 @@ def prediction_loop():
         print sys.exc_info()[0]
         return
     try:
+        local_time = datetime.datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S')
+        print "predicting for %s"%local_time
         while True:
             cursor.execute("update stream set intervention_id=%s where id=%s", ("-1", "Not Logged In"))
-            cursor.execute("SELECT id,user_id,created_at FROM stream WHERE intervention_id IS NULL")
+            cursor.execute("SELECT id,user_id,created_at FROM stream WHERE intervention_id IS NULL and local_time>='%s'"%local_time)
             rows = cursor.fetchall()
             if len(rows) == 0:
                 continue

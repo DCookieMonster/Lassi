@@ -6,6 +6,7 @@ import datetime
 from dateutil.parser import parse
 #from incentive.runner import  getTheBestForTheUser
 def sql(user_id, city_name, country_name, project, subjects, created_at):
+    local_time = datetime.datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S')
     # connect
     conn = MySQLdb.connect(host="localhost", user="root", passwd="9670", db="streamer")
 
@@ -13,8 +14,8 @@ def sql(user_id, city_name, country_name, project, subjects, created_at):
     try:
         datet=parse(created_at)
         time=datetime.datetime(datet.year,datet.month,datet.day,datet.hour,datet.minute,datet.second)
-        cursor.execute("""INSERT INTO stream (user_id,project,subjects,created_at,country_name,city_name) VALUES (%s,%s,%s,%s,%s,%s)""",
-                       (user_id,project,subjects,time,country_name,city_name))
+        cursor.execute("""INSERT INTO stream (user_id,project,subjects,created_at,country_name,city_name,local_time) VALUES (%s,%s,%s,%s,%s,%s,%s)""",
+                       (user_id,project,subjects,time,country_name,city_name,local_time))
         conn.commit()
     except MySQLdb.Error as e:
         print e

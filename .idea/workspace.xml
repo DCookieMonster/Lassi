@@ -5,21 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7365eb97-f8a5-40c0-873a-8141abcfbe04" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/templates/Wiki.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/db.sqlite3" afterPath="$PROJECT_DIR$/src/db.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DB Creation" afterPath="$PROJECT_DIR$/src/DB Creation" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Lassi.iml" afterPath="$PROJECT_DIR$/.idea/Lassi.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Predictor/Predictor.py" afterPath="$PROJECT_DIR$/src/Predictor/Predictor.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/StreamReader/StreamReader.py" afterPath="$PROJECT_DIR$/src/StreamReader/StreamReader.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/Dash/pages/dash.html" afterPath="$PROJECT_DIR$/static/templates/Dash/pages/dash.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Algorithem/dis_predictor.py" afterPath="$PROJECT_DIR$/src/Algorithem/dis_predictor.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Predictor/dis_predictor.py" afterPath="$PROJECT_DIR$/src/Predictor/dis_predictor.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/incentive/models.py" afterPath="$PROJECT_DIR$/src/incentive/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/incentive/runner.py" afterPath="$PROJECT_DIR$/src/incentive/runner.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lassi/urls.py" afterPath="$PROJECT_DIR$/src/Lassi/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/incentive/views.py" afterPath="$PROJECT_DIR$/src/incentive/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -36,6 +24,7 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Lassi$Predictor.coverage" NAME="Predictor Coverage Results" MODIFIED="1432305225006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Predictor" />
+    <SUITE FILE_PATH="coverage/Lassi$manage.coverage" NAME="manage Coverage Results" MODIFIED="1433068792747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/Lassi$tests.coverage" NAME="tests Coverage Results" MODIFIED="1426419781789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/incentive" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -56,12 +45,35 @@
       <file leaf-file-name="StreamReader.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/StreamReader/StreamReader.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.2" vertical-offset="388" max-vertical-offset="975">
-              <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+            <state vertical-scroll-proportion="-3.4285715" vertical-offset="0" max-vertical-offset="990">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="73" />
               <folding>
                 <element signature="e#19#34#0" expanded="true" />
-                <marker date="1432585119216" expanded="true" signature="537:643" placeholder="INSERT INTO ..." />
+                <marker date="1433064903774" expanded="true" signature="611:731" placeholder="INSERT INTO ..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Faker.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Predictor/Faker.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
+              <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+              <folding>
+                <element signature="e#20#31#0" expanded="true" />
+                <marker date="1433066523894" expanded="true" signature="380:519" placeholder="INSERT INTO ..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lassi/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.542857" vertical-offset="1096" max-vertical-offset="2460">
+              <caret line="93" column="6" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="6" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -69,7 +81,7 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Lassi/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.485714" vertical-offset="933" max-vertical-offset="1470">
+            <state vertical-scroll-proportion="0.0" vertical-offset="913" max-vertical-offset="1470">
               <caret line="82" column="25" selection-start-line="82" selection-start-column="11" selection-end-line="82" selection-end-column="25" />
               <folding>
                 <element signature="e#0#51#0" expanded="true" />
@@ -81,54 +93,56 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/incentive/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4400786" vertical-offset="4411" max-vertical-offset="4965">
-              <caret line="381" column="24" selection-start-line="381" selection-start-column="24" selection-end-line="381" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.62643677" vertical-offset="3483" max-vertical-offset="4005">
+              <caret line="402" column="0" selection-start-line="402" selection-start-column="0" selection-end-line="402" selection-end-column="0" />
               <folding>
                 <element signature="e#1#36#0" expanded="true" />
-                <element signature="e#2391#2690#0" expanded="false" />
-                <element signature="e#2739#2881#0" expanded="false" />
-                <element signature="e#3693#3963#0" expanded="false" />
-                <element signature="e#8534#9535#0" expanded="false" />
-                <element signature="e#9563#10315#0" expanded="false" />
-                <element signature="e#11837#11910#0" expanded="false" />
-                <marker date="1432588369828" expanded="true" signature="1400:1456" placeholder="SELECT user_..stream..." />
-                <marker date="1432588369828" expanded="true" signature="12208:12287" placeholder="SELECT id,us..stream..." />
-                <marker date="1432588369828" expanded="true" signature="12208:12319" placeholder="SELECT id,us..stream..." />
-                <marker date="1432588369828" expanded="true" signature="12208:12321" placeholder="SELECT id,us..stream..." />
-                <marker date="1432588369828" expanded="true" signature="12942:12981" placeholder="update strea..." />
+                <element signature="e#2407#2706#0" expanded="false" />
+                <element signature="e#2755#2897#0" expanded="false" />
+                <element signature="e#3709#3979#0" expanded="false" />
+                <element signature="e#5400#7027#0" expanded="false" />
+                <element signature="e#7080#7819#0" expanded="false" />
+                <element signature="e#8550#9551#0" expanded="false" />
+                <element signature="e#9579#10331#0" expanded="false" />
+                <element signature="e#10445#11166#0" expanded="false" />
+                <marker date="1433068772254" expanded="true" signature="1416:1472" placeholder="SELECT user_..stream..." />
+                <marker date="1433068772254" expanded="true" signature="12398:12472" placeholder="SELECT id,us..stream..." />
+                <marker date="1433068772254" expanded="true" signature="12398:12510" placeholder="SELECT id,us..stream..." />
+                <marker date="1433068772254" expanded="true" signature="12398:12523" placeholder="SELECT id,us..stream..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="handlers.py" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/lib/python2.7/wsgiref/handlers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1465" max-vertical-offset="6780">
+              <caret line="126" column="0" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="simple_server.py" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/lib/python2.7/wsgiref/simple_server.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1630" max-vertical-offset="2400">
+              <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="DB Creation" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DB Creation">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.806452" vertical-offset="0" max-vertical-offset="270">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
           <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
             <state />
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="runner.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/incentive/runner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.9714284" vertical-offset="6" max-vertical-offset="1125">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="28" />
-              <folding>
-                <element signature="e#1295#1575#0" expanded="false" />
-                <element signature="e#1616#1884#0" expanded="false" />
-                <element signature="e#1931#2887#0" expanded="false" />
-                <element signature="e#2990#3561#0" expanded="false" />
-                <element signature="e#3589#15127#0" expanded="false" />
-                <element signature="e#5129#14478#0" expanded="false" />
-                <element signature="e#14552#14911#0" expanded="false" />
-                <element signature="e#14945#15127#0" expanded="false" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="270">
+              <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -136,14 +150,9 @@
       <file leaf-file-name="dash.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/templates/Dash/pages/dash.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="4.322034" vertical-offset="4215" max-vertical-offset="4875">
+            <state vertical-scroll-proportion="0.0" vertical-offset="4950" max-vertical-offset="7005">
               <caret line="330" column="40" selection-start-line="330" selection-start-column="40" selection-end-line="330" selection-end-column="40" />
-              <folding>
-                <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#1985#2200#0#HTML" expanded="false" />
-                <element signature="e#11736#12091#0#HTML" expanded="false" />
-                <element signature="e#12664#16244#0#HTML" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -151,14 +160,16 @@
       <file leaf-file-name="Predictor.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Predictor/Predictor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.9714284" vertical-offset="516" max-vertical-offset="1650">
-              <caret line="46" column="18" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="18" />
+            <state vertical-scroll-proportion="-7.4" vertical-offset="356" max-vertical-offset="1590">
+              <caret line="41" column="14" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
               <folding>
                 <element signature="e#20#34#0" expanded="true" />
-                <marker date="1432580416552" expanded="true" signature="856:902" placeholder="update strea..." />
-                <marker date="1432580416552" expanded="true" signature="960:1030" placeholder="SELECT id,us..stream..." />
-                <marker date="1432580416552" expanded="true" signature="1619:1665" placeholder="update strea..." />
-                <marker date="1432580416552" expanded="true" signature="1922:1968" placeholder="update strea..." />
+                <marker date="1433067871450" expanded="true" signature="874:920" placeholder="update strea..." />
+                <marker date="1433067871450" expanded="true" signature="978:1065" placeholder="SELECT id,us..stream..." />
+                <marker date="1433067871450" expanded="true" signature="978:1066" placeholder="SELECT id,us..stream..." />
+                <marker date="1433067871450" expanded="true" signature="978:1069" placeholder="SELECT id,us..stream..." />
+                <marker date="1433067871450" expanded="true" signature="1669:1715" placeholder="update strea..." />
+                <marker date="1433067871450" expanded="true" signature="1972:2018" placeholder="update strea..." />
               </folding>
             </state>
           </provider>
@@ -192,11 +203,12 @@
         <option value="$PROJECT_DIR$/src/Algorithem/dis_predictor.py" />
         <option value="$PROJECT_DIR$/src/incentive/runner.py" />
         <option value="$PROJECT_DIR$/src/Predictor/dis_predictor.py" />
-        <option value="$PROJECT_DIR$/src/Predictor/Predictor.py" />
         <option value="$PROJECT_DIR$/static/templates/Dash/pages/dash.html" />
         <option value="$PROJECT_DIR$/src/Lassi/urls.py" />
-        <option value="$PROJECT_DIR$/src/StreamReader/StreamReader.py" />
         <option value="$PROJECT_DIR$/src/DB Creation" />
+        <option value="$PROJECT_DIR$/src/StreamReader/StreamReader.py" />
+        <option value="$PROJECT_DIR$/src/Predictor/Faker.py" />
+        <option value="$PROJECT_DIR$/src/Predictor/Predictor.py" />
         <option value="$PROJECT_DIR$/src/incentive/views.py" />
       </list>
     </option>
@@ -266,6 +278,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lassi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lassi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="incentive" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -293,7 +323,7 @@
       <recent name="$PROJECT_DIR$/src/incentive" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Predictor">
+  <component name="RunManager" selected="Python.manage">
     <configuration default="false" name="tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -332,6 +362,28 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <RunnerSettings RunnerId="PyDebugRunner" />
       <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Lassi" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/manage.py" />
+      <option name="PARAMETERS" value="runserver" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -573,15 +625,17 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Django server.Lassi" />
       <item index="1" class="java.lang.String" itemvalue="Python.tests" />
       <item index="2" class="java.lang.String" itemvalue="Python.Predictor" />
+      <item index="3" class="java.lang.String" itemvalue="Python.manage" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.Predictor" />
-        <item index="1" class="java.lang.String" itemvalue="Python.tests" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.manage" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Predictor" />
+        <item index="2" class="java.lang.String" itemvalue="Python.tests" />
       </list>
     </recent_temporary>
   </component>
@@ -606,13 +660,12 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35668203" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298647" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21905698" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12880044" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21852237" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298647" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.09176341" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32882413" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39021853" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -621,6 +674,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32882413" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -670,13 +724,8 @@
           <line>10</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/src/incentive/views.py</url>
-          <line>325</line>
-          <option name="timeStamp" value="46" />
-        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="48" />
+      <option name="time" value="53" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Python.DjangoServer">
@@ -687,67 +736,10 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/StreamReader/StreamReader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="960">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#19#34#0" expanded="true" />
-            <marker date="1432585119216" expanded="true" signature="537:643" placeholder="INSERT INTO ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Algorithem/dis_predictor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#25#43#0" expanded="false" />
-            <element signature="e#1702#11051#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/templates/Dash/pages/dash.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="4745" max-vertical-offset="7050">
-          <caret line="340" column="70" selection-start-line="340" selection-start-column="70" selection-end-line="340" selection-end-column="70" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#1985#2200#0#HTML" expanded="false" />
-            <element signature="e#11736#12091#0#HTML" expanded="false" />
-            <element signature="e#12664#16244#0#HTML" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/incentive/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="5580">
-          <caret line="40" column="14" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="14" />
-          <folding>
-            <element signature="e#1#36#0" expanded="true" />
-            <element signature="e#2391#2690#0" expanded="false" />
-            <element signature="e#2739#2881#0" expanded="false" />
-            <element signature="e#3693#3963#0" expanded="false" />
-            <element signature="e#8534#9535#0" expanded="false" />
-            <element signature="e#9563#10315#0" expanded="false" />
-            <element signature="e#11837#11910#0" expanded="false" />
-            <marker date="1432588369828" expanded="true" signature="1400:1456" placeholder="SELECT user_..stream..." />
-            <marker date="1432588369828" expanded="true" signature="12208:12287" placeholder="SELECT id,us..stream..." />
-            <marker date="1432588369828" expanded="true" signature="12208:12319" placeholder="SELECT id,us..stream..." />
-            <marker date="1432588369828" expanded="true" signature="12208:12321" placeholder="SELECT id,us..stream..." />
-            <marker date="1432588369828" expanded="true" signature="12942:12981" placeholder="update strea..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/templates/GetUser.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="465" max-vertical-offset="660">
           <caret line="31" column="94" selection-start-line="30" selection-start-column="15" selection-end-line="31" selection-end-column="94" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -755,7 +747,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1320">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -763,7 +754,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="13460" max-vertical-offset="14205">
           <caret line="14" column="38" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -795,10 +785,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2471" max-vertical-offset="3240">
           <caret line="190" column="45" selection-start-line="190" selection-start-column="45" selection-end-line="190" selection-end-column="45" />
-          <folding>
-            <element signature="e#25#43#0" expanded="false" />
-            <element signature="e#1702#11051#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -820,12 +806,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="4745" max-vertical-offset="7050">
           <caret line="340" column="70" selection-start-line="340" selection-start-column="70" selection-end-line="340" selection-end-column="70" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#1985#2200#0#HTML" expanded="false" />
-            <element signature="e#11736#12091#0#HTML" expanded="false" />
-            <element signature="e#12664#16244#0#HTML" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -835,17 +816,18 @@
           <caret line="40" column="14" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="14" />
           <folding>
             <element signature="e#1#36#0" expanded="true" />
-            <element signature="e#2391#2690#0" expanded="false" />
-            <element signature="e#2739#2881#0" expanded="false" />
-            <element signature="e#3693#3963#0" expanded="false" />
-            <element signature="e#8534#9535#0" expanded="false" />
-            <element signature="e#9563#10315#0" expanded="false" />
-            <element signature="e#11837#11910#0" expanded="false" />
-            <marker date="1432588369828" expanded="true" signature="1400:1456" placeholder="SELECT user_..stream..." />
-            <marker date="1432588369828" expanded="true" signature="12208:12287" placeholder="SELECT id,us..stream..." />
-            <marker date="1432588369828" expanded="true" signature="12208:12319" placeholder="SELECT id,us..stream..." />
-            <marker date="1432588369828" expanded="true" signature="12208:12321" placeholder="SELECT id,us..stream..." />
-            <marker date="1432588369828" expanded="true" signature="12942:12981" placeholder="update strea..." />
+            <element signature="e#2407#2706#0" expanded="false" />
+            <element signature="e#2755#2897#0" expanded="false" />
+            <element signature="e#3709#3979#0" expanded="false" />
+            <element signature="e#5400#7027#0" expanded="false" />
+            <element signature="e#7080#7819#0" expanded="false" />
+            <element signature="e#8550#9551#0" expanded="false" />
+            <element signature="e#9579#10331#0" expanded="false" />
+            <element signature="e#10445#11166#0" expanded="false" />
+            <marker date="1433068772254" expanded="true" signature="1416:1472" placeholder="SELECT user_..stream..." />
+            <marker date="1433068772254" expanded="true" signature="12398:12472" placeholder="SELECT id,us..stream..." />
+            <marker date="1433068772254" expanded="true" signature="12398:12510" placeholder="SELECT id,us..stream..." />
+            <marker date="1433068772254" expanded="true" signature="12398:12523" placeholder="SELECT id,us..stream..." />
           </folding>
         </state>
       </provider>
@@ -854,7 +836,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="465" max-vertical-offset="660">
           <caret line="31" column="94" selection-start-line="30" selection-start-column="15" selection-end-line="31" selection-end-column="94" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -862,7 +843,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1320">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -870,7 +850,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="13460" max-vertical-offset="14205">
           <caret line="14" column="38" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -902,10 +881,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2471" max-vertical-offset="3240">
           <caret line="190" column="45" selection-start-line="190" selection-start-column="45" selection-end-line="190" selection-end-column="45" />
-          <folding>
-            <element signature="e#25#43#0" expanded="false" />
-            <element signature="e#1702#11051#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -997,7 +972,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6706081" vertical-offset="68" max-vertical-offset="660">
           <caret line="31" column="94" selection-start-line="30" selection-start-column="15" selection-end-line="31" selection-end-column="94" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1005,7 +979,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1320">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1013,7 +986,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-20.863558" vertical-offset="12290" max-vertical-offset="14205">
           <caret line="14" column="38" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1021,7 +993,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1035">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1029,11 +1000,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="e#19#69#0" expanded="true" />
-            <element signature="e#491#557#0" expanded="false" />
-            <element signature="e#1334#2189#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1049,9 +1015,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8782467" vertical-offset="2714" max-vertical-offset="3345">
           <caret line="217" column="117" selection-start-line="217" selection-start-column="117" selection-end-line="217" selection-end-column="117" />
-          <folding>
-            <element signature="e#25#43#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1060,7 +1023,7 @@
         <state vertical-scroll-proportion="0.6321839" vertical-offset="0" max-vertical-offset="522">
           <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#0#28#0" expanded="false" />
             <element signature="e#710#2492#0" expanded="false" />
             <element signature="e#2528#2654#0" expanded="false" />
           </folding>
@@ -1071,7 +1034,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.35008976" vertical-offset="0" max-vertical-offset="557">
           <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1079,7 +1041,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.026929982" vertical-offset="0" max-vertical-offset="557">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1087,61 +1048,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.85057473" vertical-offset="336" max-vertical-offset="3270">
           <caret line="57" column="55" selection-start-line="57" selection-start-column="55" selection-end-line="57" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lassi/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.485714" vertical-offset="933" max-vertical-offset="1470">
-          <caret line="82" column="25" selection-start-line="82" selection-start-column="11" selection-end-line="82" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DB Creation">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.806452" vertical-offset="0" max-vertical-offset="270">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/templates/Dash/pages/dash.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="4.322034" vertical-offset="4215" max-vertical-offset="4875">
-          <caret line="330" column="40" selection-start-line="330" selection-start-column="40" selection-end-line="330" selection-end-column="40" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#1985#2200#0#HTML" expanded="false" />
-            <element signature="e#11736#12091#0#HTML" expanded="false" />
-            <element signature="e#12664#16244#0#HTML" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Predictor/Predictor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.9714284" vertical-offset="516" max-vertical-offset="1650">
-          <caret line="46" column="18" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="18" />
-          <folding>
-            <element signature="e#20#34#0" expanded="true" />
-            <marker date="1432580416552" expanded="true" signature="856:902" placeholder="update strea..." />
-            <marker date="1432580416552" expanded="true" signature="960:1030" placeholder="SELECT id,us..stream..." />
-            <marker date="1432580416552" expanded="true" signature="1619:1665" placeholder="update strea..." />
-            <marker date="1432580416552" expanded="true" signature="1922:1968" placeholder="update strea..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/incentive/runner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.9714284" vertical-offset="6" max-vertical-offset="1125">
+        <state vertical-scroll-proportion="0.0" vertical-offset="6" max-vertical-offset="1125">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="28" />
           <folding>
             <element signature="e#1295#1575#0" expanded="false" />
@@ -1156,34 +1068,123 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/DB Creation">
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="270">
+          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/templates/Dash/pages/dash.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4950" max-vertical-offset="7005">
+          <caret line="330" column="40" selection-start-line="330" selection-start-column="40" selection-end-line="330" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="932">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lassi/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.542857" vertical-offset="1096" max-vertical-offset="2460">
+          <caret line="93" column="6" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python2.7/wsgiref/simple_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1630" max-vertical-offset="2400">
+          <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Predictor/Faker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
+          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+          <folding>
+            <element signature="e#20#31#0" expanded="true" />
+            <marker date="1433066523894" expanded="true" signature="380:519" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python2.7/wsgiref/handlers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1465" max-vertical-offset="6780">
+          <caret line="126" column="0" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lassi/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="1470">
+          <caret line="82" column="25" selection-start-line="82" selection-start-column="11" selection-end-line="82" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/StreamReader/StreamReader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.2" vertical-offset="388" max-vertical-offset="975">
-          <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+        <state vertical-scroll-proportion="-3.4285715" vertical-offset="0" max-vertical-offset="990">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="73" />
           <folding>
             <element signature="e#19#34#0" expanded="true" />
-            <marker date="1432585119216" expanded="true" signature="537:643" placeholder="INSERT INTO ..." />
+            <marker date="1433064903774" expanded="true" signature="611:731" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Predictor/Predictor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.4" vertical-offset="356" max-vertical-offset="1590">
+          <caret line="41" column="14" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
+          <folding>
+            <element signature="e#20#34#0" expanded="true" />
+            <marker date="1433067871450" expanded="true" signature="874:920" placeholder="update strea..." />
+            <marker date="1433067871450" expanded="true" signature="978:1065" placeholder="SELECT id,us..stream..." />
+            <marker date="1433067871450" expanded="true" signature="978:1066" placeholder="SELECT id,us..stream..." />
+            <marker date="1433067871450" expanded="true" signature="978:1069" placeholder="SELECT id,us..stream..." />
+            <marker date="1433067871450" expanded="true" signature="1669:1715" placeholder="update strea..." />
+            <marker date="1433067871450" expanded="true" signature="1972:2018" placeholder="update strea..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/incentive/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4400786" vertical-offset="4411" max-vertical-offset="4965">
-          <caret line="381" column="24" selection-start-line="381" selection-start-column="24" selection-end-line="381" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.62643677" vertical-offset="3483" max-vertical-offset="4005">
+          <caret line="402" column="0" selection-start-line="402" selection-start-column="0" selection-end-line="402" selection-end-column="0" />
           <folding>
             <element signature="e#1#36#0" expanded="true" />
-            <element signature="e#2391#2690#0" expanded="false" />
-            <element signature="e#2739#2881#0" expanded="false" />
-            <element signature="e#3693#3963#0" expanded="false" />
-            <element signature="e#8534#9535#0" expanded="false" />
-            <element signature="e#9563#10315#0" expanded="false" />
-            <element signature="e#11837#11910#0" expanded="false" />
-            <marker date="1432588369828" expanded="true" signature="1400:1456" placeholder="SELECT user_..stream..." />
-            <marker date="1432588369828" expanded="true" signature="12208:12287" placeholder="SELECT id,us..stream..." />
-            <marker date="1432588369828" expanded="true" signature="12208:12319" placeholder="SELECT id,us..stream..." />
-            <marker date="1432588369828" expanded="true" signature="12208:12321" placeholder="SELECT id,us..stream..." />
-            <marker date="1432588369828" expanded="true" signature="12942:12981" placeholder="update strea..." />
+            <element signature="e#2407#2706#0" expanded="false" />
+            <element signature="e#2755#2897#0" expanded="false" />
+            <element signature="e#3709#3979#0" expanded="false" />
+            <element signature="e#5400#7027#0" expanded="false" />
+            <element signature="e#7080#7819#0" expanded="false" />
+            <element signature="e#8550#9551#0" expanded="false" />
+            <element signature="e#9579#10331#0" expanded="false" />
+            <element signature="e#10445#11166#0" expanded="false" />
+            <marker date="1433068772254" expanded="true" signature="1416:1472" placeholder="SELECT user_..stream..." />
+            <marker date="1433068772254" expanded="true" signature="12398:12472" placeholder="SELECT id,us..stream..." />
+            <marker date="1433068772254" expanded="true" signature="12398:12510" placeholder="SELECT id,us..stream..." />
+            <marker date="1433068772254" expanded="true" signature="12398:12523" placeholder="SELECT id,us..stream..." />
           </folding>
         </state>
       </provider>
