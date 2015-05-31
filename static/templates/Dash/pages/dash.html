@@ -452,7 +452,40 @@
         }
 
 
-        users()
+        //users()
+
+
+        /*Eran Read from stream asynchronously */
+        function createXMLHttpRequest() {
+            try { return new XMLHttpRequest(); } catch(e) {}
+            try { return new ActiveXObject("Msxml2.XMLHTTP"); } catch (e) {}
+            alert("XMLHttpRequest not supported");
+            return null;
+        }
+        var table2=$('#dataTables1').DataTable();
+        var table=$('#dataTables').DataTable();
+        var previous_text = 0;
+        var xhReq = createXMLHttpRequest();
+        xhReq.open("GET", "../../streamResponse/", true);
+        xhReq.onreadystatechange = function(){
+            if (xhReq.readyState < 3)  { return; }
+
+            var lines = xhReq.responseText.substring(previous_text).split('\n');
+            previous_text = xhReq.responseText.length;
+            lines.forEach(function(row) {
+                        var entry=  JSON.parse(row);
+                        table.row.add([
+                                entry['user_id'],
+                                entry['created_at']+""]
+                        ).draw();
+                        table2.row.add([
+                                    entry['user_id'],
+                                    entry['intervention_id']+""]
+                        ).draw();
+            });
+
+        };
+        xhReq.send(null);
     </script>
 
 
