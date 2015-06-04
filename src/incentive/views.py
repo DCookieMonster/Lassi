@@ -2,6 +2,7 @@
 from django.contrib import messages
 
 from django.contrib.auth.models import User, Group
+from django.http.response import HttpResponseNotFound, HttpResponseBadRequest
 from rest_framework import viewsets
 from django.http import HttpResponse, StreamingHttpResponse
 from django.views.decorators.csrf import csrf_exempt
@@ -61,7 +62,7 @@ def thankyou(request):
 
 @csrf_exempt
 def dash(request):
-    return render_to_response("Dash/pages/dash.html",locals(),context_instance=RequestContext(request))
+    return render_to_response("dash/pages/dash.html",locals(),context_instance=RequestContext(request))
 
 def wiki(request):
     return render_to_response("wiki.html",locals(),context_instance=RequestContext(request))
@@ -363,15 +364,17 @@ from django.views.decorators.http import condition
 
 
 @condition(etag_func=None)
+@csrf_exempt
 def stream_response(request):
     resp = StreamingHttpResponse(stream_response_generator())
     return resp
-
+@csrf_exempt
 def stream_response_generator2():
     for x in xrange(1, 11):
         yield x
         yield '\n'
 
+@csrf_exempt
 def stream_response_generator():
         try:
             conn = MySQLdb.connect(host="localhost", user="root", passwd="9670", db="streamer")
@@ -407,3 +410,69 @@ def stream_response_generator():
                     yield "\n"
                 except:
                     continue
+
+@csrf_exempt
+def ask_by_date(request):
+    try:
+        conn = MySQLdb.connect(host="localhost", user="root", passwd="9670", db="streamer")
+        conn.autocommit(True)
+        cursor = conn.cursor()
+    except:
+        return HttpResponseBadRequest()
+    local_time = datetime.datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S')
+    search = True
+    response =[]
+    while search:
+        cursor.execute('SELECT id,user_id,created_at,intervention_id FROM stream WHERE (local_time>"%s")  and (user_id!="Not Logged In") and intervention_id is Not NULL'%local_time)
+        rows = cursor.fetchall()
+        if len(rows) == 0:
+            continue
+        search = False
+        for row in rows:
+            if (row is None) or (len(row) < 4):
+                continue
+            id = row[0]
+            user_id = row[1]
+            created_at = row[2]
+            intervention_id = row[3]
+            jsonToSend = JSONEncoder().encode({
+                "id": str(id),
+                "user_id": str(user_id),
+                "created_at": str(created_at),
+                "intervention_id": str(intervention_id)
+            })
+            response.append(jsonToSend)
+            response.append('\n')
+    return HttpResponse(response)
+
+@csrf_exempt
+def ask_gt_id(request):
+    record_id = request.GET['record_id']
+
+    print record_id
+
+    try:
+        conn = MySQLdb.connect(host="localhost", user="root", passwd="9670", db="streamer")
+        conn.autocommit(True)
+        cursor = conn.cursor()
+    except:
+        return HttpResponseBadRequest()
+    response =[]
+    cursor.execute('SELECT id,user_id,created_at,intervention_id FROM stream WHERE (id>"%s") and (user_id!="Not Logged In") and intervention_id is Not NULL'%record_id)
+    rows = cursor.fetchall()
+    for row in rows:
+        if (row is None) or (len(row) < 4):
+            continue
+        id = row[0]
+        user_id = row[1]
+        created_at = row[2]
+        intervention_id = row[3]
+        jsonToSend = JSONEncoder().encode({
+                "id": str(id),
+                "user_id": str(user_id),
+                "created_at": str(created_at),
+                "intervention_id": str(intervention_id)
+        })
+        response.append(jsonToSend)
+        response.append('\n')
+    return HttpResponse(response)

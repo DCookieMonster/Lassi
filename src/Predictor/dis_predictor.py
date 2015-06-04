@@ -38,6 +38,7 @@ class dis_predictor:
         #'/home/eran/Documents/Lassi/src/Algorithem/Model/dismodel.pkl'
         #'/home/ise/Model/dismodel.pkl'
         self.clf = joblib.load('/home/eran/Documents/Lassi/src/Algorithem/Model/dismodel.pkl')
+        #self.clf = joblib.load('/home/ise/Model/dismodel.pkl')
         logging.info("Finished Loading  Model")
 
     def fe(self, user_id_str, cteated_at_str):

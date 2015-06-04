@@ -44,6 +44,8 @@ def prediction_loop():
                 continue
             for row in rows:
                 id = row[0]
+                if id == "Not Logged In":
+                    continue
                 user_id = row[1]
                 created_at = row[2]
                 created_at = created_at.strftime('%Y-%m-%d %H:%M:%S')
@@ -54,7 +56,7 @@ def prediction_loop():
                     cursor.execute("update stream set intervention_id=%s where id=%s", (intervention_id, id))
                     print "done execute\n"
                 else:
-                    intervention_id = "-1"
+                    intervention_id = "Staying."
                     print "User:" + user_id + " intervention_id: " + intervention_id
                     cursor.execute("update stream set intervention_id=%s where id=%s", (intervention_id, id))
                     print "done execute\n"

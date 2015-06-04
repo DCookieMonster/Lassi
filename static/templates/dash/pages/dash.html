@@ -268,224 +268,105 @@
     });
 
     </script>
+
     <script type="text/javascript">
-        var bar=Morris.Bar({
-            element: 'morris-bar-chart',
-            data: [{
-                y: 'Email',
-                a: 0
-            }, {
-                y: 'Pop-up',
-                a: 0
-            },
-                {
-                    y: 'Message Box',
-                    a: 0
-                }],
-            xkey: 'y',
-            ykeys: ['a'],
-            labels: ['Numbers'],
-            hideHover: 'auto',
-            resize: true,
-            barColors: function (row, series, type) {
-                if(row.label == "Pop-up") return "#CB7D00";
-                else if(row.label == "Email") return "#FF9E00";
-                else if(row.label == "Message Box") return "#905900";
-            }
-        });
-        var don=Morris.Donut({
-            element: 'morris-donut-chart',
-            data: [{
-                label: "Leaving",
-                value: 36
-            }, {
-                label: "Staying",
-                value: 74
-            }],
-            resize: true,
-            colors:["#8A0808","#088A29"],
-            formatter:function (y, data) { return  y+"%" }
-        });
-
-        function Donut(){
-
-              $.ajax({
-                  data: {"date": post},
-                  url: '/disratio/',
-                  async: false,
-                  method: 'POST',
-                  success: function (msg) {
-                      var arr=  JSON.parse(msg);
-
-                       don.setData([
-                {label: "Leaving", value: JSON.parse(arr[0]).l*100},
-                {label: "Staying", value: JSON.parse(arr[0]).s*100}
-            ]);
-                  }
-              });
 
 
-
-        }
-
-        function lOrs(userId,created_at){
-            if(userId!="Not Logged In") {
-                $.ajax({
-                    data: {"userID": userId, "created_at": created_at},
-                    url: '/getIncUser/',
-                    async: false,
-                    method: 'POST',
-                    success: function (msg) {
-                        var arr = JSON.parse(JSON.parse(JSON.parse(msg)));
-                        if( arr['Alg']=="Error"){
-                            alert("the Algorithm is down, I'm starting it now");
-                            $.ajax({
-                                data: {"date": post},
-                                url: '/startAlg/',
-                                async: false,
-                                method: 'POST',
-                                success: function (msg) {
-                                    var arr = JSON.parse(JSON.parse(JSON.parse(msg)));
-                                    if( arr['Alg']=="Success") {
-                                        alert("We are back on, Have fun!");
-                                        lOrs(userId, created_at)
-                                        return
-                                    }
-                                    else{
-                                                                                alert("It's seems to be a problem, call the admin");
-
-                                    }
-                                }
-                            });
-
-                        }
-
-                        table2.row.add([
-                                    userId+":",
-                                    arr['message']]
-                        ).draw();
-                        if (arr['message'] != "Staying") {
-                            var r2 = Math.random()
-
-                            if (r2 <= 0.3334) {
-                                bar.setData([
-                                    {y: bar.data[0].src.y, a: bar.data[0].src.a + 1},
-                                    {y: bar.data[1].src.y, a: bar.data[1].src.a},
-                                    {y: bar.data[2].src.y, a: bar.data[2].src.a}
-                                ]);
-                            }
-                            else {
-                                if (r2 <= 0.66667) {
-                                    bar.setData([
-                                        {y: bar.data[0].src.y, a: bar.data[0].src.a},
-                                        {y: bar.data[1].src.y, a: bar.data[1].src.a + 1},
-                                        {y: bar.data[2].src.y, a: bar.data[2].src.a}
-                                    ]);
-                                }
-                                else {
-                                    bar.setData([
-                                        {y: bar.data[0].src.y, a: bar.data[0].src.a},
-                                        {y: bar.data[1].src.y, a: bar.data[1].src.a},
-                                        {y: bar.data[2].src.y, a: bar.data[2].src.a + 1}
-                                    ]);
-                                }
-                            }
-                        }
-                    },
-                    error: function (xhr, ajaxOptions, thrownError) {
-                        console.log(xhr.status);
-                        console.log(thrownError);
-                    }
-                });
-            }
-            else{
-                 table2.row.add([
-                                    userId,
-                                    "Ignored"]
-                        ).draw();
-            }
-        }
-
-
-        var table2=$('#dataTables1').DataTable();
-        var date=new Date().toISOString().slice(0,10)
-        var time=new Date().toISOString().slice(11,19)
-        var post="\""+date+" "+time+"\""
-
-
-        function users(){
-
-            bar.setData([
-                                {y: bar.data[0].src.y, a:0},
-                                {y: bar.data[1].src.y, a: 0},
-                                {y: bar.data[2].src.y, a:0}
-                            ]);
-            $.ajax({
-                data: {"date":post},
-                url: '/dashStream/',
-                async:false,
-                method: 'POST',
-                success: function(msg) {
-                    var arr=  JSON.parse(msg);
-
-                    var table=$('#dataTables').DataTable();
-
-                    table.clear().draw();
-                    table2.clear().draw();
-
-
-                    arr.forEach(function(row) {
-                        var entry=  JSON.parse(row);
-                        table.row.add([
-                                entry['user_id'],
-                                entry['created_at']+""]
-                        ).draw();
-
-
-                        lOrs(entry['user_id'],  entry['created_at']);
-                    });
-                }
-
-            });
-            setTimeout(users, 5000);
-            Donut()
-        }
-
-
-        //users()
-
-
-        /*Eran Read from stream asynchronously */
-        function createXMLHttpRequest() {
-            try { return new XMLHttpRequest(); } catch(e) {}
-            try { return new ActiveXObject("Msxml2.XMLHTTP"); } catch (e) {}
-            alert("XMLHttpRequest not supported");
-            return null;
-        }
         var table2=$('#dataTables1').DataTable();
         var table=$('#dataTables').DataTable();
         var previous_text = 0;
-        var xhReq = createXMLHttpRequest();
-        xhReq.open("GET", "../../streamResponse/", true);
-        xhReq.onreadystatechange = function(){
-            if (xhReq.readyState < 3)  { return; }
-
-            var lines = xhReq.responseText.substring(previous_text).split('\n');
-            previous_text = xhReq.responseText.length;
-            lines.forEach(function(row) {
-                        var entry=  JSON.parse(row);
+        var rcrd_id = 0;
+        var streamUrl = "streamResponse/";
+        /*Eran Read from stream asynchronously*/
+        function get_by_date(){
+            $.ajax({
+                url: '/ask_by_date/',
+                async:true,
+                method: 'GET',
+                success: function(msg) {
+                    var arr = msg.split('\n');
+                    var tmp = Object.prototype.toString.call( arr );
+                    if( tmp === '[object Array]' ) {
+                    arr.forEach(function(row) {
+                        if(row !="") {
+                            var entry = JSON.parse(row);
+                            var entry = JSON.parse(row);
+                            if (entry['id'] > rcrd_id)
+                                rcrd_id = entry['id'];
+                            table.row.add([
+                                        entry['user_id'],
+                                        entry['created_at'] + ""]
+                            ).draw();
+                            table2.row.add([
+                                        entry['user_id'],
+                                        entry['intervention_id'] + ""]
+                            ).draw();
+                        }
+                    });
+                    }
+                    else{
+                        var entry=  JSON.parse(msg);
+                        if(entry['id']>rcrd_id)
+                            rcrd_id=entry['id'];
                         table.row.add([
-                                entry['user_id'],
-                                entry['created_at']+""]
-                        ).draw();
+                            entry['user_id'],
+                            entry['created_at']+""]
+                                 ).draw();
                         table2.row.add([
-                                    entry['user_id'],
-                                    entry['intervention_id']+""]
-                        ).draw();
+                            entry['user_id'],
+                            entry['intervention_id']+""]
+                                  ).draw();
+                    }
+                    setTimeout(get_gt_id, 5000);
+                },
+                error: function() {
+                    setTimeout(get_by_date, 5000);
+                }
             });
 
-        };
-        xhReq.send(null);
+        }
+        function get_gt_id(){
+            $.ajax({
+                url: '/ask_gt_id/?record_id='+rcrd_id,
+                async:true,
+                method: 'GET',
+                success: function(msg) {
+                    var arr = msg.split('\n');
+                    var tmp = Object.prototype.toString.call( arr );
+                    if( tmp === '[object Array]' ) {
+                        arr.forEach(function (row) {
+                            if(row !="") {
+                                var entry = JSON.parse(row);
+                                if (entry['id'] > rcrd_id)
+                                    rcrd_id = entry['id'];
+                                table.row.add([
+                                            entry['user_id'],
+                                            entry['created_at'] + ""]
+                                ).draw();
+                                table2.row.add([
+                                            entry['user_id'],
+                                            entry['intervention_id'] + ""]
+                                ).draw();
+                            }
+                        });
+                    }else{
+                        var entry=  JSON.parse(msg);
+                        if(entry['id']>rcrd_id)
+                            rcrd_id=entry['id'];
+                        table.row.add([
+                            entry['user_id'],
+                            entry['created_at']+""]
+                                 ).draw();
+                        table2.row.add([
+                            entry['user_id'],
+                            entry['intervention_id']+""]
+                                  ).draw();
+                    }
+                }
+            });
+            setTimeout(get_gt_id, 5000);
+        }
+        get_by_date();
     </script>
 
 
