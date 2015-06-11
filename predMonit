@@ -1,0 +1,16 @@
+#!/bin/bash
+
+PIDFILE=/var/run/Predictor.pid
+
+ case $1 in
+    start)
+        source /home/ise/Lassi/venv/bin/activate
+       echo $$ > ${PIDFILE}
+       exec python -u /home/ise/Lassi/src/Predictor/Predictor.py >> Logs/pred_log.out &
+       ;;
+     stop)
+       kill `cat ${PIDFILE}` ;;
+     *)
+       echo "usage: predMonit {start|stop}" ;;
+ esac
+ exit 0

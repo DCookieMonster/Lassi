@@ -1,0 +1,16 @@
+#!/bin/bash
+
+PIDFILE=/var/run/StreamReader.pid
+
+ case $1 in
+    start)
+        source /home/ise/Lassi/venv/bin/activate
+       echo $$ > ${PIDFILE}
+       exec python -u /home/ise/Lassi/src/StreamReader/StreamReader.py >> Logs/strm_log.out &
+       ;;
+     stop)
+       kill `cat ${PIDFILE}` ;;
+     *)
+       echo "usage: strmMonit {start|stop}" ;;
+ esac
+ exit 0

@@ -98,36 +98,7 @@
             <!-- /.row -->
             <br>
             <div class="row" >
-                <div class="col-lg-6 col-md-6" >
-                  <div class="panel panel-default">
-                        <div class="panel-heading">
-                           Incoming Events Window
-                        </div>
-                        <!-- /.panel-heading -->
-                        <div class="panel-body">
-                            <div class="dataTable_wrapper">
-                                <table class="table table-striped table-bordered table-hover" id="dataTables">
-                                    <thead>
-                                        <tr>
-                                            <th>User ID</th>
-                                            <th>Created At</th>
-                                           
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-
-                                      
-                                    </tbody>
-                                </table>
-                            </div>
-                            <!-- /.table-responsive -->
-                          
-                        </div>
-                        <!-- /.panel-body -->
-                    </div>
-                    <!-- /.panel -->
-                 </div>
-                  <div class="col-lg-6 col-md-6">
+                <div>
                   <div class="panel panel-default">
                         <div class="panel-heading">
                             Prediction & Intervention Messages
@@ -135,12 +106,16 @@
                           <!-- /.panel-heading -->
                         <div class="panel-body">
                             <div class="dataTable_wrapper">
-                                <table class="table table-striped table-bordered table-hover" id="dataTables1">
+                                <table class="table table-striped table-bordered table-hover" id="dataTables1" data-show-columns="true">
                                     <thead>
                                         <tr>
-                                            <th>User ID</th>
-                                            <th>Prediction</th>
-                                           
+                                            <th >User ID</th>
+                                            <th data-field="cat1" data-sortable="true" data-visible="false">Created At</th>
+                                            <th >Intervention</th>
+                                            <th >Preconfigured Id</th>
+                                            <th >Cohort id</th>
+                                            <th >Algo Info</th>
+                                            <th >Id</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -255,17 +230,13 @@
     <script>
     $(document).ready(function() {
         $('#dataTables1').DataTable({
-                responsive: true
-
+            responsive: true
         });
     });
-      $(document).ready(function() {
-        $('#dataTables').DataTable({
-            "lengthMenu": [[10, 25, 50, -1], [10, 25, 50, "All"]],
-                responsive: true
 
-        });
-    });
+
+
+
 
     </script>
 
@@ -273,7 +244,6 @@
 
 
         var table2=$('#dataTables1').DataTable();
-        var table=$('#dataTables').DataTable();
         var previous_text = 0;
         var rcrd_id = 0;
         var streamUrl = "streamResponse/";
@@ -293,14 +263,16 @@
                             var entry = JSON.parse(row);
                             if (entry['id'] > rcrd_id)
                                 rcrd_id = entry['id'];
-                            table.row.add([
-                                        entry['user_id'],
-                                        entry['created_at'] + ""]
-                            ).draw();
+
                             table2.row.add([
                                         entry['user_id'],
-                                        entry['intervention_id'] + ""]
-                            ).draw();
+                                        entry['created_at'],
+                                        entry['intervention_id'],
+                                        entry['preconfigured_id'],
+                                        entry['cohort_id'],
+                                        entry['algo_info'],
+                                               entry['id']+ ""]
+                            ).order( [[ 1, 'desc' ]] ).draw(false);
                         }
                     });
                     }
@@ -308,19 +280,19 @@
                         var entry=  JSON.parse(msg);
                         if(entry['id']>rcrd_id)
                             rcrd_id=entry['id'];
-                        table.row.add([
-                            entry['user_id'],
-                            entry['created_at']+""]
-                                 ).draw();
                         table2.row.add([
                             entry['user_id'],
-                            entry['intervention_id']+""]
-                                  ).draw();
+                            entry['created_at'],
+                            entry['intervention_id'],
+                            entry['preconfigured_id'],
+                            entry['cohort_id'],
+                            entry['algo_info'],entry['id']+""]
+                                  ).order( [[ 1, 'desc' ]] ).draw(false);
                     }
-                    setTimeout(get_gt_id, 5000);
+                    setTimeout(get_gt_id, 500);
                 },
                 error: function() {
-                    setTimeout(get_by_date, 5000);
+                    setTimeout(get_by_date, 500);
                 }
             });
 
@@ -339,32 +311,32 @@
                                 var entry = JSON.parse(row);
                                 if (entry['id'] > rcrd_id)
                                     rcrd_id = entry['id'];
-                                table.row.add([
-                                            entry['user_id'],
-                                            entry['created_at'] + ""]
-                                ).draw();
                                 table2.row.add([
                                             entry['user_id'],
-                                            entry['intervention_id'] + ""]
-                                ).draw();
+                                            entry['created_at'],
+                                            entry['intervention_id'],
+                                            entry['preconfigured_id'],
+                                            entry['cohort_id'],
+                                            entry['algo_info'],entry['id']+ ""]
+                                ).order( [[ 1, 'desc' ]] ).draw(false);
                             }
                         });
                     }else{
                         var entry=  JSON.parse(msg);
                         if(entry['id']>rcrd_id)
                             rcrd_id=entry['id'];
-                        table.row.add([
-                            entry['user_id'],
-                            entry['created_at']+""]
-                                 ).draw();
                         table2.row.add([
                             entry['user_id'],
-                            entry['intervention_id']+""]
-                                  ).draw();
+                            entry['created_at'],
+                            entry['intervention_id'],
+                            entry['preconfigured_id'],
+                            entry['cohort_id'],
+                            entry['algo_info'],entry['id']+ ""]
+                                  ).order( [[ 1, 'desc' ]] ).draw(false);
                     }
                 }
             });
-            setTimeout(get_gt_id, 5000);
+            setTimeout(get_gt_id, 500);
         }
         get_by_date();
     </script>

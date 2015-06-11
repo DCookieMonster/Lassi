@@ -423,23 +423,29 @@ def ask_by_date(request):
     search = True
     response =[]
     while search:
-        cursor.execute('SELECT id,user_id,created_at,intervention_id FROM stream WHERE (local_time>"%s")  and (user_id!="Not Logged In") and intervention_id is Not NULL'%local_time)
+        cursor.execute('SELECT id,user_id,created_at,intervention_id,preconfigured_id,cohort_id,algo_info FROM stream WHERE (local_time>"%s")  and (user_id!="Not Logged In") and intervention_id is Not NULL'%local_time)
         rows = cursor.fetchall()
         if len(rows) == 0:
             continue
         search = False
         for row in rows:
-            if (row is None) or (len(row) < 4):
+            if (row is None) or (len(row) < 7):
                 continue
             id = row[0]
             user_id = row[1]
             created_at = row[2]
             intervention_id = row[3]
+            preconfigured_id = row[4]
+            cohort_id = row[5]
+            algo_info = row[6]
             jsonToSend = JSONEncoder().encode({
                 "id": str(id),
                 "user_id": str(user_id),
                 "created_at": str(created_at),
-                "intervention_id": str(intervention_id)
+                "intervention_id": str(intervention_id),
+                "preconfigured_id": str(preconfigured_id),
+                "cohort_id": str(cohort_id),
+                "algo_info": str(algo_info)
             })
             response.append(jsonToSend)
             response.append('\n')
@@ -458,20 +464,26 @@ def ask_gt_id(request):
     except:
         return HttpResponseBadRequest()
     response =[]
-    cursor.execute('SELECT id,user_id,created_at,intervention_id FROM stream WHERE (id>"%s") and (user_id!="Not Logged In") and intervention_id is Not NULL'%record_id)
+    cursor.execute('SELECT id,user_id,created_at,intervention_id,preconfigured_id,cohort_id,algo_info FROM stream WHERE (id>"%s") and (user_id!="Not Logged In") and intervention_id is Not NULL'%record_id)
     rows = cursor.fetchall()
     for row in rows:
-        if (row is None) or (len(row) < 4):
+        if (row is None) or (len(row) < 7):
             continue
         id = row[0]
         user_id = row[1]
         created_at = row[2]
         intervention_id = row[3]
+        preconfigured_id = row[4]
+        cohort_id = row[5]
+        algo_info = row[6]
         jsonToSend = JSONEncoder().encode({
                 "id": str(id),
                 "user_id": str(user_id),
                 "created_at": str(created_at),
-                "intervention_id": str(intervention_id)
+                "intervention_id": str(intervention_id),
+                "preconfigured_id": str(preconfigured_id),
+                "cohort_id": str(cohort_id),
+                "algo_info": str(algo_info)
         })
         response.append(jsonToSend)
         response.append('\n')

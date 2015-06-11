@@ -8,5 +8,8 @@ CREATE TABLE IF NOT EXISTS `stream` (
   `city_name` varchar(250) DEFAULT NULL,
   `intervention_id` varchar(250) DEFAULT NULL,
   `local_time` datetime NOT NULL,
+  `preconfigured_id` varchar(250) DEFAULT NULL,
+  `cohort_id` varchar(250) DEFAULT NULL,
+  `algo_info` varchar(250) DEFAULT NULL,
   PRIMARY KEY (`id`)
 );

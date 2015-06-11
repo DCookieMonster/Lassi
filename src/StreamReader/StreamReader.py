@@ -4,7 +4,29 @@ import yaml
 import MySQLdb
 import datetime
 from dateutil.parser import parse
-#from incentive.runner import  getTheBestForTheUser
+import logging
+from logging.handlers import RotatingFileHandler
+import time
+
+
+log_formatter = logging.Formatter('%(asctime)s %(levelname)s %(funcName)s(%(lineno)d) %(message)s')
+log_formatter.converter = time.gmtime
+
+logFile = '/home/ise/Logs/streamer.log'
+#logFile = '/home/eran/Documents/Logs/streamer.log'
+
+my_handler = RotatingFileHandler(logFile, mode='a', maxBytes=1*1024*1024, backupCount=50, encoding=None, delay=0)
+my_handler.setFormatter(log_formatter)
+my_handler.setLevel(logging.INFO)
+
+app_log = logging.getLogger('root')
+app_log.setLevel(logging.INFO)
+app_log.addHandler(my_handler)
+
+def tmprint(txt):
+    local_time = datetime.datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S')
+    print "{0} - {1}".format(local_time, txt)
+
 def sql(user_id, city_name, country_name, project, subjects, created_at):
     local_time = datetime.datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S')
     # connect
@@ -18,7 +40,7 @@ def sql(user_id, city_name, country_name, project, subjects, created_at):
                        (user_id,project,subjects,time,country_name,city_name,local_time))
         conn.commit()
     except MySQLdb.Error as e:
-        print e
+        app_log.info(e)
         conn.rollback()
     conn.close()
 
@@ -30,31 +52,22 @@ def stream():
     # TODO: set the chunk_size to be large enough so as not to overwhelm the CPU
     for line in r.iter_lines(chunk_size=1024*2):
         if len(line)>10:
-            if line!='Stream Start':
+            if (line!='Stream Start') and (line!='Heartbeat'):
                 x=yaml.load(line)
-                #TODO:check which field to get to the database
-                #TODO: what to do with NOT LOGIN users?
-                #TODO: Create DB for this streaming
                 if (x['project']=="galaxy_zoo"):
                     sql(x['user_id'],x['city_name'],x['country_name'],x['project'],x['subjects'],x['created_at'])
-                    print "{0} - User:{1} Record added.\n".format(x['created_at'], x['user_id'])
+                    local_time = datetime.datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S')
+                    app_log.info("User:{0} Record added.\n".format( x['user_id']))
 
-def Pusher(userId,projectID,cohort_id,preconfigured_id,text_message,intervention_channel):
-    with requests.Session() as c:
-        url="http://localhost:8080/"+userId+"/interventions"
-        payload={
-            'project_id': projectID,
-            'intervention_type': 'interrupt',
-            'cohort_id': cohort_id,
-            'preconfigured_id':preconfigured_id,
-            'text_message': text_message,
-            'intervention_duration': '0',
-            'intervention_channel': intervention_channel,
-            'take_action':'immediately',
-        }
 
-        request=c.post(url,data=payload)
-        print (request.content)
+def main():
+    while True:
+        try:
+            app_log.info("starting stream\n")
+            stream()
+        except:
+            app_log.info("Stream Crashed\n")
+            continue
 
 if __name__ == "__main__":
-    stream()
+    main()
