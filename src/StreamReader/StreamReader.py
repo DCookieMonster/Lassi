@@ -1,5 +1,6 @@
 __author__ = 'dor'
 import requests
+import socket
 import sys
 import yaml
 import MySQLdb
@@ -53,7 +54,7 @@ def stream():
         try:
             headers = {'Accept': 'application/vnd.zooevents.stream.v1+json'}
             url = 'http://event.zooniverse.org/classifications'
-            r = requests.get(url, headers=headers, stream=True, timeout=30)
+            r = requests.get(url, headers=headers, stream=True, timeout=3600)
             # TODO: set the chunk_size to be large enough so as not to overwhelm the CPU
             for line in r.iter_lines(chunk_size=1024*2):
                 if len(line)>10:
@@ -63,16 +64,12 @@ def stream():
                             sql(x['user_id'],x['city_name'],x['country_name'],x['project'],x['subjects'],x['created_at'])
                             local_time = datetime.datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S')
                             app_log.info("User:{0} Record added.\n".format( x['user_id']))
-                else:
-                    app_log.log(line)
-        except requests.exceptions.ConnectTimeout as e:
-            app_log.info("Connect timeout\n")
+
+        except (requests.Timeout, socket.error) as e:
+            app_log.info("timeout\n")
             app_log.info(e)
             continue
-        except requests.exceptions.ReadTimeout as e:
-            app_log.info("Read timeout\n")
-            app_log.info(e)
-            continue
+
 
 
 def main():
@@ -83,6 +80,7 @@ def main():
         except:
             app_log.info("Stream Crashed\n")
             app_log.info(sys.exc_info()[0])
+            print sys.exc_info()
             continue
 
 if __name__ == "__main__":

@@ -5,246 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7365eb97-f8a5-40c0-873a-8141abcfbe04" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Config/Config.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Testing/DB.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Config/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Testing/galaxyZooGUICheck.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/media/documents/2015/01/20/321280_10150362388636306_1077311180_n.jpg" afterPath="$PROJECT_DIR$/static/media/documents/2015/01/20/321280_10150362388636306_1077311180_n.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/media/documents/2015/01/20/321280_10150362388636306_1077311180_n_9e00e5v.jpg" afterPath="$PROJECT_DIR$/static/media/documents/2015/01/20/321280_10150362388636306_1077311180_n_9e00e5v.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/media/documents/2015/01/20/321280_10150362388636306_1077311180_n_KAiszzz.jpg" afterPath="$PROJECT_DIR$/static/media/documents/2015/01/20/321280_10150362388636306_1077311180_n_KAiszzz.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/media/documents/2015/01/20/321280_10150362388636306_1077311180_n_OlfBxLB.jpg" afterPath="$PROJECT_DIR$/static/media/documents/2015/01/20/321280_10150362388636306_1077311180_n_OlfBxLB.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Algorithem.zip" afterPath="$PROJECT_DIR$/src/Algorithem.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/README.md" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static/img/bgu.png" afterPath="$PROJECT_DIR$/static/static/img/bgu.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/img/bgu.png" afterPath="$PROJECT_DIR$/static/templates/dash/img/bgu.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/changelist-bg.gif" afterPath="$PROJECT_DIR$/static/static-only/admin/img/changelist-bg.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/changelist-bg_rtl.gif" afterPath="$PROJECT_DIR$/static/static-only/admin/img/changelist-bg_rtl.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/chooser-bg.gif" afterPath="$PROJECT_DIR$/static/static-only/admin/img/chooser-bg.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/chooser_stacked-bg.gif" afterPath="$PROJECT_DIR$/static/static-only/admin/img/chooser_stacked-bg.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/db.sqlite3" afterPath="$PROJECT_DIR$/src/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/default-bg-reverse.gif" afterPath="$PROJECT_DIR$/static/static-only/admin/img/default-bg-reverse.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/default-bg.gif" afterPath="$PROJECT_DIR$/static/static-only/admin/img/default-bg.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/deleted-overlay.gif" afterPath="$PROJECT_DIR$/static/static-only/admin/img/deleted-overlay.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/favicon.ico" afterPath="$PROJECT_DIR$/static/favicon.ico" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static/favicon.ico" afterPath="$PROJECT_DIR$/static/static/favicon.ico" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/icon-no.gif" afterPath="$PROJECT_DIR$/static/static-only/admin/img/icon-no.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/icon-unknown.gif" afterPath="$PROJECT_DIR$/static/static-only/admin/img/icon-unknown.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/icon-yes.gif" afterPath="$PROJECT_DIR$/static/static-only/admin/img/icon-yes.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/icon_addlink.gif" afterPath="$PROJECT_DIR$/static/static-only/admin/img/icon_addlink.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/icon_alert.gif" afterPath="$PROJECT_DIR$/static/static-only/admin/img/icon_alert.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/icon_calendar.gif" afterPath="$PROJECT_DIR$/static/static-only/admin/img/icon_calendar.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/icon_changelink.gif" afterPath="$PROJECT_DIR$/static/static-only/admin/img/icon_changelink.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/icon_clock.gif" afterPath="$PROJECT_DIR$/static/static-only/admin/img/icon_clock.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/icon_deletelink.gif" afterPath="$PROJECT_DIR$/static/static-only/admin/img/icon_deletelink.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/icon_error.gif" afterPath="$PROJECT_DIR$/static/static-only/admin/img/icon_error.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/icon_searchbox.png" afterPath="$PROJECT_DIR$/static/static-only/admin/img/icon_searchbox.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/icon_success.gif" afterPath="$PROJECT_DIR$/static/static-only/admin/img/icon_success.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/inline-delete-8bit.png" afterPath="$PROJECT_DIR$/static/static-only/admin/img/inline-delete-8bit.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/inline-delete.png" afterPath="$PROJECT_DIR$/static/static-only/admin/img/inline-delete.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/inline-restore-8bit.png" afterPath="$PROJECT_DIR$/static/static-only/admin/img/inline-restore-8bit.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/inline-restore.png" afterPath="$PROJECT_DIR$/static/static-only/admin/img/inline-restore.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/inline-splitter-bg.gif" afterPath="$PROJECT_DIR$/static/static-only/admin/img/inline-splitter-bg.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static/img/logo.png" afterPath="$PROJECT_DIR$/static/static/img/logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/img/logo.png" afterPath="$PROJECT_DIR$/static/templates/dash/img/logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/logo.png" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/gis/move_vertex_off.png" afterPath="$PROJECT_DIR$/static/static-only/admin/img/gis/move_vertex_off.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/gis/move_vertex_on.png" afterPath="$PROJECT_DIR$/static/static-only/admin/img/gis/move_vertex_on.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static/img/msr.png" afterPath="$PROJECT_DIR$/static/static/img/msr.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/img/msr.png" afterPath="$PROJECT_DIR$/static/templates/dash/img/msr.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/nav-bg-grabber.gif" afterPath="$PROJECT_DIR$/static/static-only/admin/img/nav-bg-grabber.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/nav-bg-reverse.gif" afterPath="$PROJECT_DIR$/static/static-only/admin/img/nav-bg-reverse.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/nav-bg-selected.gif" afterPath="$PROJECT_DIR$/static/static-only/admin/img/nav-bg-selected.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/nav-bg.gif" afterPath="$PROJECT_DIR$/static/static-only/admin/img/nav-bg.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/selector-icons.gif" afterPath="$PROJECT_DIR$/static/static-only/admin/img/selector-icons.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/selector-search.gif" afterPath="$PROJECT_DIR$/static/static-only/admin/img/selector-search.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/sorting-icons.gif" afterPath="$PROJECT_DIR$/static/static-only/admin/img/sorting-icons.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/tool-left.gif" afterPath="$PROJECT_DIR$/static/static-only/admin/img/tool-left.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/tool-left_over.gif" afterPath="$PROJECT_DIR$/static/static-only/admin/img/tool-left_over.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/tool-right.gif" afterPath="$PROJECT_DIR$/static/static-only/admin/img/tool-right.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/tool-right_over.gif" afterPath="$PROJECT_DIR$/static/static-only/admin/img/tool-right_over.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/tooltag-add.gif" afterPath="$PROJECT_DIR$/static/static-only/admin/img/tooltag-add.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/tooltag-add_over.gif" afterPath="$PROJECT_DIR$/static/static-only/admin/img/tooltag-add_over.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/tooltag-arrowright.gif" afterPath="$PROJECT_DIR$/static/static-only/admin/img/tooltag-arrowright.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/tooltag-arrowright_over.gif" afterPath="$PROJECT_DIR$/static/static-only/admin/img/tooltag-arrowright_over.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static/img/zooniverse.png" afterPath="$PROJECT_DIR$/static/static/img/zooniverse.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/img/zooniverse.png" afterPath="$PROJECT_DIR$/static/templates/dash/img/zooniverse.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/.idea/.name" afterPath="$PROJECT_DIR$/static/templates/dash/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/.npmignore" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/.travis.yml" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/incentive/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/src/incentive/migrations/0001_initial.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Algorithem/Alg.py" afterPath="$PROJECT_DIR$/src/Algorithem/Alg.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DB Creation" afterPath="$PROJECT_DIR$/src/DB Creation" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/.idea/Dash.iml" afterPath="$PROJECT_DIR$/static/templates/dash/.idea/Dash.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/js/admin/DateTimeShortcuts.js" afterPath="$PROJECT_DIR$/static/static-only/admin/js/admin/DateTimeShortcuts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/Gruntfile.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/Gruntfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/IncentiveForm.html" afterPath="$PROJECT_DIR$/static/templates/IncentiveForm.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/js/LICENSE-JQUERY.txt" afterPath="$PROJECT_DIR$/static/static-only/admin/js/LICENSE-JQUERY.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/node_modules/http-https/LICENSE" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/node_modules/http-https/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Lassi.iml" afterPath="$PROJECT_DIR$/.idea/Lassi.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Predictor/Predictor.py" afterPath="$PROJECT_DIR$/src/Predictor/Predictor.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/README.md" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/node_modules/http-https/README.md" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/node_modules/http-https/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/js/admin/RelatedObjectLookups.js" afterPath="$PROJECT_DIR$/static/static-only/admin/js/admin/RelatedObjectLookups.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/js/SelectBox.js" afterPath="$PROJECT_DIR$/static/static-only/admin/js/SelectBox.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/js/SelectFilter2.js" afterPath="$PROJECT_DIR$/static/static-only/admin/js/SelectFilter2.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/StreamReader/StreamReader.py" afterPath="$PROJECT_DIR$/src/StreamReader/StreamReader.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/__init__.py" afterPath="$PROJECT_DIR$/src/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Algorithem/__init__.py" afterPath="$PROJECT_DIR$/src/Algorithem/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lassi/__init__.py" afterPath="$PROJECT_DIR$/src/Lassi/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Predictor/__init__.py" afterPath="$PROJECT_DIR$/src/Predictor/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/StreamReader/__init__.py" afterPath="$PROJECT_DIR$/src/StreamReader/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/incentive/__init__.py" afterPath="$PROJECT_DIR$/src/incentive/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/incentive/migrations/__init__.py" afterPath="$PROJECT_DIR$/src/incentive/migrations/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/aboutus.html" afterPath="$PROJECT_DIR$/static/templates/aboutus.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/js/actions.js" afterPath="$PROJECT_DIR$/static/static-only/admin/js/actions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/js/actions.min.js" afterPath="$PROJECT_DIR$/static/static-only/admin/js/actions.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/incentive/admin.py" afterPath="$PROJECT_DIR$/src/incentive/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/json/allTypes.json" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/json/allTypes.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/amd.conf.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/amd.conf.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/amd.integration.spec.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/amd.integration.spec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/libs/ascentFrom.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/libs/ascentFrom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/css/base.css" afterPath="$PROJECT_DIR$/static/static-only/admin/css/base.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/base.html" afterPath="$PROJECT_DIR$/static/templates/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static/css/bootstrap.css" afterPath="$PROJECT_DIR$/static/static/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/static/static/css/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/static/static/js/bootstrap.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/js/calendar.js" afterPath="$PROJECT_DIR$/static/static-only/admin/js/calendar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/libs/calledLikeMatcher.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/libs/calledLikeMatcher.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/css/changelists.css" afterPath="$PROJECT_DIR$/static/static-only/admin/css/changelists.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static/js/checklogin.js" afterPath="$PROJECT_DIR$/static/static/js/checklogin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/js/checklogin.js" afterPath="$PROJECT_DIR$/static/templates/dash/js/checklogin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/checklogin.php" afterPath="$PROJECT_DIR$/static/templates/dash/checklogin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/clarinet.unit.spec.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/clarinet.unit.spec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/js/collapse.js" afterPath="$PROJECT_DIR$/static/static-only/admin/js/collapse.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/js/collapse.min.js" afterPath="$PROJECT_DIR$/static/static-only/admin/js/collapse.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/component.json" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/component.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/concat.conf.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/concat.conf.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/js/core.js" afterPath="$PROJECT_DIR$/static/static-only/admin/js/core.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static/css/custom.css" afterPath="$PROJECT_DIR$/static/static/css/custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/pages/dash.html" afterPath="$PROJECT_DIR$/static/templates/dash/pages/dash.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/css/dashboard.css" afterPath="$PROJECT_DIR$/static/static-only/admin/css/dashboard.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/defaults.unit.spec.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/defaults.unit.spec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/detectCrossOrigin.unit.spec.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/detectCrossOrigin.unit.spec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Algorithem/dis_predictor.py" afterPath="$PROJECT_DIR$/src/Algorithem/dis_predictor.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Predictor/dis_predictor.py" afterPath="$PROJECT_DIR$/src/Predictor/dis_predictor.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dor" afterPath="$PROJECT_DIR$/src/dor" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/.idea/encodings.xml" afterPath="$PROJECT_DIR$/static/templates/dash/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/errorReport.unit.spec.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/errorReport.unit.spec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/libs/es5-sham.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/libs/es5-sham.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/libs/es5-shim.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/libs/es5-shim.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/json/firstTenNaturalNumbers.json" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/json/firstTenNaturalNumbers.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/css/forms.css" afterPath="$PROJECT_DIR$/static/static-only/admin/css/forms.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/incentive/forms.py" afterPath="$PROJECT_DIR$/src/incentive/forms.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/functional.unit.spec.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/functional.unit.spec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/node_modules/http-https/http-https.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/node_modules/http-https/http-https.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/http.conf.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/http.conf.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static/js/ie-emulation-modes-warning.js" afterPath="$PROJECT_DIR$/static/static/js/ie-emulation-modes-warning.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/js/ie-emulation-modes-warning.js" afterPath="$PROJECT_DIR$/static/templates/dash/js/ie-emulation-modes-warning.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/css/ie.css" afterPath="$PROJECT_DIR$/static/static-only/admin/css/ie.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static/js/ie10-viewport-bug-workaround.js" afterPath="$PROJECT_DIR$/static/static/js/ie10-viewport-bug-workaround.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/js/ie10-viewport-bug-workaround.js" afterPath="$PROJECT_DIR$/static/templates/dash/js/ie10-viewport-bug-workaround.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/json/incomplete.json" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/json/incomplete.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/incrementalContentBuilder.unit.spec.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/incrementalContentBuilder.unit.spec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/index.html" afterPath="$PROJECT_DIR$/static/templates/dash/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/coverage/Chrome 34.0.1847 (Mac OS X 10.9.2)/index.html" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/coverage/Chrome 34.0.1847 (Mac OS X 10.9.2)/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/coverage/PhantomJS 1.9.7 (Mac OS X)/index.html" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/coverage/PhantomJS 1.9.7 (Mac OS X)/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/js/inlines.js" afterPath="$PROJECT_DIR$/static/static-only/admin/js/inlines.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/js/inlines.min.js" afterPath="$PROJECT_DIR$/static/static-only/admin/js/inlines.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/instanceApi.component.spec.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/instanceApi.component.spec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/instanceApi.unit.spec.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/instanceApi.unit.spec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/instanceController.unit.spec.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/instanceController.unit.spec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/js/jquery.init.js" afterPath="$PROJECT_DIR$/static/static-only/admin/js/jquery.init.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/js/jquery.js" afterPath="$PROJECT_DIR$/static/static-only/admin/js/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/js/jquery.min.js" afterPath="$PROJECT_DIR$/static/static-only/admin/js/jquery.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static/js/jquery.min.js" afterPath="$PROJECT_DIR$/static/static/js/jquery.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/jsonPath.unit.spec.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/jsonPath.unit.spec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/jsonPathTokens.unit.spec.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/jsonPathTokens.unit.spec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static/css/jumbotron.css" afterPath="$PROJECT_DIR$/static/static/css/jumbotron.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/libs/listMatcher.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/libs/listMatcher.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/lists.unit.spec.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/lists.unit.spec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/logfile" afterPath="$PROJECT_DIR$/src/logfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/css/login.css" afterPath="$PROJECT_DIR$/static/static-only/admin/css/login.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/min.conf.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/min.conf.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/.idea/misc.xml" afterPath="$PROJECT_DIR$/static/templates/dash/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/incentive/models.py" afterPath="$PROJECT_DIR$/src/incentive/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/.idea/modules.xml" afterPath="$PROJECT_DIR$/static/templates/dash/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mysite.log" afterPath="$PROJECT_DIR$/src/mysite.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/dist/oboe-browser.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/dist/oboe-browser.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/dist/oboe-browser.min.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/dist/oboe-browser.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/dist/oboe-node.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/dist/oboe-node.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/oboe.component.spec.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/oboe.component.spec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/oboe.integration.spec.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/oboe.integration.spec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/oboe.performance.spec.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/oboe.performance.spec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/libs/oboeAsserter.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/libs/oboeAsserter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/json/oneHundredRecords.json" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/json/oneHundredRecords.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/package.json" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/node_modules/http-https/package.json" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/node_modules/http-https/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/parseResponseHeaders.unit.spec.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/parseResponseHeaders.unit.spec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/patternAdaptor.unit.spec.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/patternAdaptor.unit.spec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/incentive/permissions.py" afterPath="$PROJECT_DIR$/src/incentive/permissions.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/php.php" afterPath="$PROJECT_DIR$/static/templates/dash/php.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/libs/platform.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/libs/platform.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static/js/polyfill.js" afterPath="$PROJECT_DIR$/static/static/js/polyfill.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/predMonit" afterPath="$PROJECT_DIR$/predMonit" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/js/prepopulate.js" afterPath="$PROJECT_DIR$/static/static-only/admin/js/prepopulate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/js/prepopulate.min.js" afterPath="$PROJECT_DIR$/static/static-only/admin/js/prepopulate.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/coverage/Chrome 34.0.1847 (Mac OS X 10.9.2)/prettify.css" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/coverage/Chrome 34.0.1847 (Mac OS X 10.9.2)/prettify.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/coverage/PhantomJS 1.9.7 (Mac OS X)/prettify.css" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/coverage/PhantomJS 1.9.7 (Mac OS X)/prettify.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/coverage/Chrome 34.0.1847 (Mac OS X 10.9.2)/prettify.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/coverage/Chrome 34.0.1847 (Mac OS X 10.9.2)/prettify.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/coverage/PhantomJS 1.9.7 (Mac OS X)/prettify.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/coverage/PhantomJS 1.9.7 (Mac OS X)/prettify.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/libs/prettyPrintEvents.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/libs/prettyPrintEvents.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/profilePage.html" afterPath="$PROJECT_DIR$/static/templates/profilePage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/publicApi.unit.spec.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/publicApi.unit.spec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/pubsub.unit.spec.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/pubsub.unit.spec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/require/require.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/require/require.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/requirements.txt" afterPath="$PROJECT_DIR$/src/requirements.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/css/rtl.css" afterPath="$PROJECT_DIR$/static/static-only/admin/css/rtl.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/incentive/runner.py" afterPath="$PROJECT_DIR$/src/incentive/runner.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/.idea/scopes/scope_settings.xml" afterPath="$PROJECT_DIR$/static/templates/dash/.idea/scopes/scope_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/incentive/serializers.py" afterPath="$PROJECT_DIR$/src/incentive/serializers.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lassi/settings.py" afterPath="$PROJECT_DIR$/src/Lassi/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/signups.html" afterPath="$PROJECT_DIR$/static/templates/signups.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/singleEventPubSub.unit.spec.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/singleEventPubSub.unit.spec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/libs/sinon-ie.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/libs/sinon-ie.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/libs/sinon.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/libs/sinon.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/json/smallestPossible.json" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/json/smallestPossible.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/libs/spiedPubSub.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/libs/spiedPubSub.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/streamingHttp.integration.spec.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/streamingHttp.integration.spec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/streamingHttp.unit.spec.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/streamingHttp.unit.spec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/streamingXhr.unit.spec.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/streamingXhr.unit.spec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/streamsource.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/streamsource.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/strmMonit" afterPath="$PROJECT_DIR$/strmMonit" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Algorithem/stupidAlg.py" afterPath="$PROJECT_DIR$/src/Algorithem/stupidAlg.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/json/tenRecords.json" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/json/tenRecords.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/node_modules/http-https/test.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/node_modules/http-https/test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/libs/testUrl.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/libs/testUrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/libs/testVars.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/libs/testVars.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/incentive/tests.py" afterPath="$PROJECT_DIR$/src/incentive/tests.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/thankyou.html" afterPath="$PROJECT_DIR$/static/templates/thankyou.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/js/timeparse.js" afterPath="$PROJECT_DIR$/static/static-only/admin/js/timeparse.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/libs/toString.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/libs/toString.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/json/twentyThousandRecords.json" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/json/twentyThousandRecords.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/unit.conf.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/unit.conf.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/js/urlify.js" afterPath="$PROJECT_DIR$/static/static-only/admin/js/urlify.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lassi/urls.py" afterPath="$PROJECT_DIR$/src/Lassi/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/.idea/vcs.xml" afterPath="$PROJECT_DIR$/static/templates/dash/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/incentive/views.py" afterPath="$PROJECT_DIR$/src/incentive/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/css/widgets.css" afterPath="$PROJECT_DIR$/static/static-only/admin/css/widgets.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static/css/wiki.css" afterPath="$PROJECT_DIR$/static/static/css/wiki.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/wiki.html" afterPath="$PROJECT_DIR$/static/templates/wiki.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static/css/wikiCode.css" afterPath="$PROJECT_DIR$/static/static/css/wikiCode.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/.idea/workspace.xml" afterPath="$PROJECT_DIR$/static/templates/dash/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lassi/wsgi.py" afterPath="$PROJECT_DIR$/src/Lassi/wsgi.py" />
     </list>
     <ignored path="Lassi.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -260,7 +21,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Lassi$Predictor.coverage" NAME="Predictor Coverage Results" MODIFIED="1434619480929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Predictor" />
     <SUITE FILE_PATH="coverage/Lassi$tests.coverage" NAME="tests Coverage Results" MODIFIED="1426419781789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/incentive" />
-    <SUITE FILE_PATH="coverage/Lassi$StreamReader.coverage" NAME="StreamReader Coverage Results" MODIFIED="1434619642067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/StreamReader" />
+    <SUITE FILE_PATH="coverage/Lassi$StreamReader.coverage" NAME="StreamReader Coverage Results" MODIFIED="1435692946311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/StreamReader" />
     <SUITE FILE_PATH="coverage/Lassi$Faker.coverage" NAME="Faker Coverage Results" MODIFIED="1434033590682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Predictor" />
     <SUITE FILE_PATH="coverage/Lassi$manage.coverage" NAME="manage Coverage Results" MODIFIED="1434628098887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/Lassi$galaxyZooGUICheck.coverage" NAME="galaxyZooGUICheck Coverage Results" MODIFIED="1434880397513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testing" />
@@ -363,12 +124,12 @@
       <file leaf-file-name="StreamReader.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/StreamReader/StreamReader.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.673712" vertical-offset="360" max-vertical-offset="1395">
-              <caret line="60" column="41" selection-start-line="60" selection-start-column="41" selection-end-line="60" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.41666666" vertical-offset="540" max-vertical-offset="1365">
+              <caret line="56" column="76" selection-start-line="56" selection-start-column="76" selection-end-line="56" selection-end-column="76" />
               <folding>
                 <element signature="e#19#34#0" expanded="true" />
-                <element signature="e#814#929#0" expanded="false" />
-                <marker date="1435689018787" expanded="true" signature="1391:1511" placeholder="INSERT INTO ..." />
+                <element signature="e#828#943#0" expanded="false" />
+                <marker date="1435692993083" expanded="true" signature="1405:1525" placeholder="INSERT INTO ..." />
               </folding>
             </state>
           </provider>
@@ -562,6 +323,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StreamReader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lassi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lassi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Testing" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -594,7 +373,7 @@
       <recent name="$PROJECT_DIR$/src/incentive" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.galaxyZooGUICheck">
+  <component name="RunManager" selected="Python.StreamReader">
     <configuration default="false" name="tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -974,9 +753,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.galaxyZooGUICheck" />
-        <item index="1" class="java.lang.String" itemvalue="Python.manage" />
-        <item index="2" class="java.lang.String" itemvalue="Python.StreamReader" />
+        <item index="0" class="java.lang.String" itemvalue="Python.StreamReader" />
+        <item index="1" class="java.lang.String" itemvalue="Python.galaxyZooGUICheck" />
+        <item index="2" class="java.lang.String" itemvalue="Python.manage" />
         <item index="3" class="java.lang.String" itemvalue="Python.Faker" />
         <item index="4" class="java.lang.String" itemvalue="Python.tests" />
       </list>
@@ -1001,22 +780,22 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33891213" sideWeight="0.49946064" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32776618" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39853558" sideWeight="0.77238405" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31199187" sideWeight="0.50026953" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12021563" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914045" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20121951" sideWeight="0.50026953" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31199187" sideWeight="0.49973047" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32882413" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39853558" sideWeight="0.77238405" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31199187" sideWeight="0.49973047" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
@@ -1520,12 +1299,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/StreamReader/StreamReader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.673712" vertical-offset="360" max-vertical-offset="1395">
-          <caret line="60" column="41" selection-start-line="60" selection-start-column="41" selection-end-line="60" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.41666666" vertical-offset="540" max-vertical-offset="1365">
+          <caret line="56" column="76" selection-start-line="56" selection-start-column="76" selection-end-line="56" selection-end-column="76" />
           <folding>
             <element signature="e#19#34#0" expanded="true" />
-            <element signature="e#814#929#0" expanded="false" />
-            <marker date="1435689018787" expanded="true" signature="1391:1511" placeholder="INSERT INTO ..." />
+            <element signature="e#828#943#0" expanded="false" />
+            <marker date="1435692993083" expanded="true" signature="1405:1525" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
