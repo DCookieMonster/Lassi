@@ -5,15 +5,246 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7365eb97-f8a5-40c0-873a-8141abcfbe04" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/predMonit" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/strmMonit" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Config/Config.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Testing/DB.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Config/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Testing/galaxyZooGUICheck.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/media/documents/2015/01/20/321280_10150362388636306_1077311180_n.jpg" afterPath="$PROJECT_DIR$/static/media/documents/2015/01/20/321280_10150362388636306_1077311180_n.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/media/documents/2015/01/20/321280_10150362388636306_1077311180_n_9e00e5v.jpg" afterPath="$PROJECT_DIR$/static/media/documents/2015/01/20/321280_10150362388636306_1077311180_n_9e00e5v.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/media/documents/2015/01/20/321280_10150362388636306_1077311180_n_KAiszzz.jpg" afterPath="$PROJECT_DIR$/static/media/documents/2015/01/20/321280_10150362388636306_1077311180_n_KAiszzz.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/media/documents/2015/01/20/321280_10150362388636306_1077311180_n_OlfBxLB.jpg" afterPath="$PROJECT_DIR$/static/media/documents/2015/01/20/321280_10150362388636306_1077311180_n_OlfBxLB.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Algorithem.zip" afterPath="$PROJECT_DIR$/src/Algorithem.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/README.md" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static/img/bgu.png" afterPath="$PROJECT_DIR$/static/static/img/bgu.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/img/bgu.png" afterPath="$PROJECT_DIR$/static/templates/dash/img/bgu.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/changelist-bg.gif" afterPath="$PROJECT_DIR$/static/static-only/admin/img/changelist-bg.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/changelist-bg_rtl.gif" afterPath="$PROJECT_DIR$/static/static-only/admin/img/changelist-bg_rtl.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/chooser-bg.gif" afterPath="$PROJECT_DIR$/static/static-only/admin/img/chooser-bg.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/chooser_stacked-bg.gif" afterPath="$PROJECT_DIR$/static/static-only/admin/img/chooser_stacked-bg.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/db.sqlite3" afterPath="$PROJECT_DIR$/src/db.sqlite3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/default-bg-reverse.gif" afterPath="$PROJECT_DIR$/static/static-only/admin/img/default-bg-reverse.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/default-bg.gif" afterPath="$PROJECT_DIR$/static/static-only/admin/img/default-bg.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/deleted-overlay.gif" afterPath="$PROJECT_DIR$/static/static-only/admin/img/deleted-overlay.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/favicon.ico" afterPath="$PROJECT_DIR$/static/favicon.ico" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static/favicon.ico" afterPath="$PROJECT_DIR$/static/static/favicon.ico" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/icon-no.gif" afterPath="$PROJECT_DIR$/static/static-only/admin/img/icon-no.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/icon-unknown.gif" afterPath="$PROJECT_DIR$/static/static-only/admin/img/icon-unknown.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/icon-yes.gif" afterPath="$PROJECT_DIR$/static/static-only/admin/img/icon-yes.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/icon_addlink.gif" afterPath="$PROJECT_DIR$/static/static-only/admin/img/icon_addlink.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/icon_alert.gif" afterPath="$PROJECT_DIR$/static/static-only/admin/img/icon_alert.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/icon_calendar.gif" afterPath="$PROJECT_DIR$/static/static-only/admin/img/icon_calendar.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/icon_changelink.gif" afterPath="$PROJECT_DIR$/static/static-only/admin/img/icon_changelink.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/icon_clock.gif" afterPath="$PROJECT_DIR$/static/static-only/admin/img/icon_clock.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/icon_deletelink.gif" afterPath="$PROJECT_DIR$/static/static-only/admin/img/icon_deletelink.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/icon_error.gif" afterPath="$PROJECT_DIR$/static/static-only/admin/img/icon_error.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/icon_searchbox.png" afterPath="$PROJECT_DIR$/static/static-only/admin/img/icon_searchbox.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/icon_success.gif" afterPath="$PROJECT_DIR$/static/static-only/admin/img/icon_success.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/inline-delete-8bit.png" afterPath="$PROJECT_DIR$/static/static-only/admin/img/inline-delete-8bit.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/inline-delete.png" afterPath="$PROJECT_DIR$/static/static-only/admin/img/inline-delete.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/inline-restore-8bit.png" afterPath="$PROJECT_DIR$/static/static-only/admin/img/inline-restore-8bit.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/inline-restore.png" afterPath="$PROJECT_DIR$/static/static-only/admin/img/inline-restore.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/inline-splitter-bg.gif" afterPath="$PROJECT_DIR$/static/static-only/admin/img/inline-splitter-bg.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static/img/logo.png" afterPath="$PROJECT_DIR$/static/static/img/logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/img/logo.png" afterPath="$PROJECT_DIR$/static/templates/dash/img/logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/logo.png" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/gis/move_vertex_off.png" afterPath="$PROJECT_DIR$/static/static-only/admin/img/gis/move_vertex_off.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/gis/move_vertex_on.png" afterPath="$PROJECT_DIR$/static/static-only/admin/img/gis/move_vertex_on.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static/img/msr.png" afterPath="$PROJECT_DIR$/static/static/img/msr.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/img/msr.png" afterPath="$PROJECT_DIR$/static/templates/dash/img/msr.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/nav-bg-grabber.gif" afterPath="$PROJECT_DIR$/static/static-only/admin/img/nav-bg-grabber.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/nav-bg-reverse.gif" afterPath="$PROJECT_DIR$/static/static-only/admin/img/nav-bg-reverse.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/nav-bg-selected.gif" afterPath="$PROJECT_DIR$/static/static-only/admin/img/nav-bg-selected.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/nav-bg.gif" afterPath="$PROJECT_DIR$/static/static-only/admin/img/nav-bg.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/selector-icons.gif" afterPath="$PROJECT_DIR$/static/static-only/admin/img/selector-icons.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/selector-search.gif" afterPath="$PROJECT_DIR$/static/static-only/admin/img/selector-search.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/sorting-icons.gif" afterPath="$PROJECT_DIR$/static/static-only/admin/img/sorting-icons.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/tool-left.gif" afterPath="$PROJECT_DIR$/static/static-only/admin/img/tool-left.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/tool-left_over.gif" afterPath="$PROJECT_DIR$/static/static-only/admin/img/tool-left_over.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/tool-right.gif" afterPath="$PROJECT_DIR$/static/static-only/admin/img/tool-right.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/tool-right_over.gif" afterPath="$PROJECT_DIR$/static/static-only/admin/img/tool-right_over.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/tooltag-add.gif" afterPath="$PROJECT_DIR$/static/static-only/admin/img/tooltag-add.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/tooltag-add_over.gif" afterPath="$PROJECT_DIR$/static/static-only/admin/img/tooltag-add_over.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/tooltag-arrowright.gif" afterPath="$PROJECT_DIR$/static/static-only/admin/img/tooltag-arrowright.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/img/tooltag-arrowright_over.gif" afterPath="$PROJECT_DIR$/static/static-only/admin/img/tooltag-arrowright_over.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static/img/zooniverse.png" afterPath="$PROJECT_DIR$/static/static/img/zooniverse.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/img/zooniverse.png" afterPath="$PROJECT_DIR$/static/templates/dash/img/zooniverse.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/.idea/.name" afterPath="$PROJECT_DIR$/static/templates/dash/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/.npmignore" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/.travis.yml" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/incentive/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/src/incentive/migrations/0001_initial.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Algorithem/Alg.py" afterPath="$PROJECT_DIR$/src/Algorithem/Alg.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DB Creation" afterPath="$PROJECT_DIR$/src/DB Creation" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/.idea/Dash.iml" afterPath="$PROJECT_DIR$/static/templates/dash/.idea/Dash.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/js/admin/DateTimeShortcuts.js" afterPath="$PROJECT_DIR$/static/static-only/admin/js/admin/DateTimeShortcuts.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/Gruntfile.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/Gruntfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/IncentiveForm.html" afterPath="$PROJECT_DIR$/static/templates/IncentiveForm.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/js/LICENSE-JQUERY.txt" afterPath="$PROJECT_DIR$/static/static-only/admin/js/LICENSE-JQUERY.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/node_modules/http-https/LICENSE" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/node_modules/http-https/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Lassi.iml" afterPath="$PROJECT_DIR$/.idea/Lassi.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Predictor/Predictor.py" afterPath="$PROJECT_DIR$/src/Predictor/Predictor.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/README.md" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/node_modules/http-https/README.md" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/node_modules/http-https/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/js/admin/RelatedObjectLookups.js" afterPath="$PROJECT_DIR$/static/static-only/admin/js/admin/RelatedObjectLookups.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/js/SelectBox.js" afterPath="$PROJECT_DIR$/static/static-only/admin/js/SelectBox.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/js/SelectFilter2.js" afterPath="$PROJECT_DIR$/static/static-only/admin/js/SelectFilter2.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/StreamReader/StreamReader.py" afterPath="$PROJECT_DIR$/src/StreamReader/StreamReader.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/__init__.py" afterPath="$PROJECT_DIR$/src/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Algorithem/__init__.py" afterPath="$PROJECT_DIR$/src/Algorithem/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lassi/__init__.py" afterPath="$PROJECT_DIR$/src/Lassi/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Predictor/__init__.py" afterPath="$PROJECT_DIR$/src/Predictor/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/StreamReader/__init__.py" afterPath="$PROJECT_DIR$/src/StreamReader/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/incentive/__init__.py" afterPath="$PROJECT_DIR$/src/incentive/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/incentive/migrations/__init__.py" afterPath="$PROJECT_DIR$/src/incentive/migrations/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/aboutus.html" afterPath="$PROJECT_DIR$/static/templates/aboutus.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/js/actions.js" afterPath="$PROJECT_DIR$/static/static-only/admin/js/actions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/js/actions.min.js" afterPath="$PROJECT_DIR$/static/static-only/admin/js/actions.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/incentive/admin.py" afterPath="$PROJECT_DIR$/src/incentive/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/json/allTypes.json" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/json/allTypes.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/amd.conf.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/amd.conf.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/amd.integration.spec.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/amd.integration.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/libs/ascentFrom.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/libs/ascentFrom.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/css/base.css" afterPath="$PROJECT_DIR$/static/static-only/admin/css/base.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/base.html" afterPath="$PROJECT_DIR$/static/templates/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static/css/bootstrap.css" afterPath="$PROJECT_DIR$/static/static/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/static/static/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/static/static/js/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/js/calendar.js" afterPath="$PROJECT_DIR$/static/static-only/admin/js/calendar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/libs/calledLikeMatcher.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/libs/calledLikeMatcher.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/css/changelists.css" afterPath="$PROJECT_DIR$/static/static-only/admin/css/changelists.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static/js/checklogin.js" afterPath="$PROJECT_DIR$/static/static/js/checklogin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/js/checklogin.js" afterPath="$PROJECT_DIR$/static/templates/dash/js/checklogin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/checklogin.php" afterPath="$PROJECT_DIR$/static/templates/dash/checklogin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/clarinet.unit.spec.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/clarinet.unit.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/js/collapse.js" afterPath="$PROJECT_DIR$/static/static-only/admin/js/collapse.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/js/collapse.min.js" afterPath="$PROJECT_DIR$/static/static-only/admin/js/collapse.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/component.json" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/component.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/concat.conf.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/concat.conf.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/js/core.js" afterPath="$PROJECT_DIR$/static/static-only/admin/js/core.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static/css/custom.css" afterPath="$PROJECT_DIR$/static/static/css/custom.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/pages/dash.html" afterPath="$PROJECT_DIR$/static/templates/dash/pages/dash.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/css/dashboard.css" afterPath="$PROJECT_DIR$/static/static-only/admin/css/dashboard.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/defaults.unit.spec.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/defaults.unit.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/detectCrossOrigin.unit.spec.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/detectCrossOrigin.unit.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Algorithem/dis_predictor.py" afterPath="$PROJECT_DIR$/src/Algorithem/dis_predictor.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Predictor/dis_predictor.py" afterPath="$PROJECT_DIR$/src/Predictor/dis_predictor.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dor" afterPath="$PROJECT_DIR$/src/dor" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/.idea/encodings.xml" afterPath="$PROJECT_DIR$/static/templates/dash/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/errorReport.unit.spec.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/errorReport.unit.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/libs/es5-sham.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/libs/es5-sham.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/libs/es5-shim.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/libs/es5-shim.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/json/firstTenNaturalNumbers.json" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/json/firstTenNaturalNumbers.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/css/forms.css" afterPath="$PROJECT_DIR$/static/static-only/admin/css/forms.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/incentive/forms.py" afterPath="$PROJECT_DIR$/src/incentive/forms.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/functional.unit.spec.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/functional.unit.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/node_modules/http-https/http-https.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/node_modules/http-https/http-https.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/http.conf.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/http.conf.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static/js/ie-emulation-modes-warning.js" afterPath="$PROJECT_DIR$/static/static/js/ie-emulation-modes-warning.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/js/ie-emulation-modes-warning.js" afterPath="$PROJECT_DIR$/static/templates/dash/js/ie-emulation-modes-warning.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/css/ie.css" afterPath="$PROJECT_DIR$/static/static-only/admin/css/ie.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static/js/ie10-viewport-bug-workaround.js" afterPath="$PROJECT_DIR$/static/static/js/ie10-viewport-bug-workaround.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/js/ie10-viewport-bug-workaround.js" afterPath="$PROJECT_DIR$/static/templates/dash/js/ie10-viewport-bug-workaround.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/json/incomplete.json" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/json/incomplete.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/incrementalContentBuilder.unit.spec.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/incrementalContentBuilder.unit.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/index.html" afterPath="$PROJECT_DIR$/static/templates/dash/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/coverage/Chrome 34.0.1847 (Mac OS X 10.9.2)/index.html" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/coverage/Chrome 34.0.1847 (Mac OS X 10.9.2)/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/coverage/PhantomJS 1.9.7 (Mac OS X)/index.html" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/coverage/PhantomJS 1.9.7 (Mac OS X)/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/js/inlines.js" afterPath="$PROJECT_DIR$/static/static-only/admin/js/inlines.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/js/inlines.min.js" afterPath="$PROJECT_DIR$/static/static-only/admin/js/inlines.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/instanceApi.component.spec.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/instanceApi.component.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/instanceApi.unit.spec.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/instanceApi.unit.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/instanceController.unit.spec.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/instanceController.unit.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/js/jquery.init.js" afterPath="$PROJECT_DIR$/static/static-only/admin/js/jquery.init.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/js/jquery.js" afterPath="$PROJECT_DIR$/static/static-only/admin/js/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/js/jquery.min.js" afterPath="$PROJECT_DIR$/static/static-only/admin/js/jquery.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static/js/jquery.min.js" afterPath="$PROJECT_DIR$/static/static/js/jquery.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/jsonPath.unit.spec.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/jsonPath.unit.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/jsonPathTokens.unit.spec.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/jsonPathTokens.unit.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static/css/jumbotron.css" afterPath="$PROJECT_DIR$/static/static/css/jumbotron.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/libs/listMatcher.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/libs/listMatcher.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/lists.unit.spec.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/lists.unit.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/logfile" afterPath="$PROJECT_DIR$/src/logfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/css/login.css" afterPath="$PROJECT_DIR$/static/static-only/admin/css/login.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/min.conf.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/min.conf.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/.idea/misc.xml" afterPath="$PROJECT_DIR$/static/templates/dash/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/incentive/models.py" afterPath="$PROJECT_DIR$/src/incentive/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/.idea/modules.xml" afterPath="$PROJECT_DIR$/static/templates/dash/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mysite.log" afterPath="$PROJECT_DIR$/src/mysite.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/dist/oboe-browser.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/dist/oboe-browser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/dist/oboe-browser.min.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/dist/oboe-browser.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/dist/oboe-node.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/dist/oboe-node.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/oboe.component.spec.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/oboe.component.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/oboe.integration.spec.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/oboe.integration.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/oboe.performance.spec.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/oboe.performance.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/libs/oboeAsserter.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/libs/oboeAsserter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/json/oneHundredRecords.json" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/json/oneHundredRecords.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/package.json" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/node_modules/http-https/package.json" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/node_modules/http-https/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/parseResponseHeaders.unit.spec.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/parseResponseHeaders.unit.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/patternAdaptor.unit.spec.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/patternAdaptor.unit.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/incentive/permissions.py" afterPath="$PROJECT_DIR$/src/incentive/permissions.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/php.php" afterPath="$PROJECT_DIR$/static/templates/dash/php.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/libs/platform.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/libs/platform.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static/js/polyfill.js" afterPath="$PROJECT_DIR$/static/static/js/polyfill.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/predMonit" afterPath="$PROJECT_DIR$/predMonit" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/js/prepopulate.js" afterPath="$PROJECT_DIR$/static/static-only/admin/js/prepopulate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/js/prepopulate.min.js" afterPath="$PROJECT_DIR$/static/static-only/admin/js/prepopulate.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/coverage/Chrome 34.0.1847 (Mac OS X 10.9.2)/prettify.css" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/coverage/Chrome 34.0.1847 (Mac OS X 10.9.2)/prettify.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/coverage/PhantomJS 1.9.7 (Mac OS X)/prettify.css" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/coverage/PhantomJS 1.9.7 (Mac OS X)/prettify.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/coverage/Chrome 34.0.1847 (Mac OS X 10.9.2)/prettify.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/coverage/Chrome 34.0.1847 (Mac OS X 10.9.2)/prettify.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/coverage/PhantomJS 1.9.7 (Mac OS X)/prettify.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/coverage/PhantomJS 1.9.7 (Mac OS X)/prettify.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/libs/prettyPrintEvents.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/libs/prettyPrintEvents.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/profilePage.html" afterPath="$PROJECT_DIR$/static/templates/profilePage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/publicApi.unit.spec.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/publicApi.unit.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/pubsub.unit.spec.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/pubsub.unit.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/require/require.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/require/require.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/requirements.txt" afterPath="$PROJECT_DIR$/src/requirements.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/css/rtl.css" afterPath="$PROJECT_DIR$/static/static-only/admin/css/rtl.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/incentive/runner.py" afterPath="$PROJECT_DIR$/src/incentive/runner.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/.idea/scopes/scope_settings.xml" afterPath="$PROJECT_DIR$/static/templates/dash/.idea/scopes/scope_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/incentive/serializers.py" afterPath="$PROJECT_DIR$/src/incentive/serializers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lassi/settings.py" afterPath="$PROJECT_DIR$/src/Lassi/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/signups.html" afterPath="$PROJECT_DIR$/static/templates/signups.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/singleEventPubSub.unit.spec.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/singleEventPubSub.unit.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/libs/sinon-ie.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/libs/sinon-ie.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/libs/sinon.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/libs/sinon.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/json/smallestPossible.json" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/json/smallestPossible.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/libs/spiedPubSub.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/libs/spiedPubSub.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/streamingHttp.integration.spec.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/streamingHttp.integration.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/streamingHttp.unit.spec.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/streamingHttp.unit.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/streamingXhr.unit.spec.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/specs/streamingXhr.unit.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/streamsource.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/streamsource.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/strmMonit" afterPath="$PROJECT_DIR$/strmMonit" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Algorithem/stupidAlg.py" afterPath="$PROJECT_DIR$/src/Algorithem/stupidAlg.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/json/tenRecords.json" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/json/tenRecords.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/node_modules/http-https/test.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/node_modules/http-https/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/libs/testUrl.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/libs/testUrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/libs/testVars.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/libs/testVars.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/incentive/tests.py" afterPath="$PROJECT_DIR$/src/incentive/tests.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/thankyou.html" afterPath="$PROJECT_DIR$/static/templates/thankyou.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/js/timeparse.js" afterPath="$PROJECT_DIR$/static/static-only/admin/js/timeparse.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/libs/toString.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/libs/toString.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/json/twentyThousandRecords.json" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/json/twentyThousandRecords.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/unit.conf.js" afterPath="$PROJECT_DIR$/static/templates/dash/node_modules/oboe/test/unit.conf.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/js/urlify.js" afterPath="$PROJECT_DIR$/static/static-only/admin/js/urlify.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lassi/urls.py" afterPath="$PROJECT_DIR$/src/Lassi/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/.idea/vcs.xml" afterPath="$PROJECT_DIR$/static/templates/dash/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/incentive/views.py" afterPath="$PROJECT_DIR$/src/incentive/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static-only/admin/css/widgets.css" afterPath="$PROJECT_DIR$/static/static-only/admin/css/widgets.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static/css/wiki.css" afterPath="$PROJECT_DIR$/static/static/css/wiki.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/wiki.html" afterPath="$PROJECT_DIR$/static/templates/wiki.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static/css/wikiCode.css" afterPath="$PROJECT_DIR$/static/static/css/wikiCode.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/dash/.idea/workspace.xml" afterPath="$PROJECT_DIR$/static/templates/dash/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Lassi/wsgi.py" afterPath="$PROJECT_DIR$/src/Lassi/wsgi.py" />
     </list>
     <ignored path="Lassi.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,10 +258,12 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Lassi$Predictor.coverage" NAME="Predictor Coverage Results" MODIFIED="1434023681868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Predictor" />
+    <SUITE FILE_PATH="coverage/Lassi$Predictor.coverage" NAME="Predictor Coverage Results" MODIFIED="1434619480929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Predictor" />
     <SUITE FILE_PATH="coverage/Lassi$tests.coverage" NAME="tests Coverage Results" MODIFIED="1426419781789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/incentive" />
+    <SUITE FILE_PATH="coverage/Lassi$StreamReader.coverage" NAME="StreamReader Coverage Results" MODIFIED="1434619642067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/StreamReader" />
     <SUITE FILE_PATH="coverage/Lassi$Faker.coverage" NAME="Faker Coverage Results" MODIFIED="1434033590682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Predictor" />
-    <SUITE FILE_PATH="coverage/Lassi$manage.coverage" NAME="manage Coverage Results" MODIFIED="1434033699182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/Lassi$manage.coverage" NAME="manage Coverage Results" MODIFIED="1434628098887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/Lassi$galaxyZooGUICheck.coverage" NAME="galaxyZooGUICheck Coverage Results" MODIFIED="1434880397513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testing" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -47,26 +280,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/incentive/views.py">
+      <file leaf-file-name="csrf.py" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/lib/python2.7/dist-packages/django/views/decorators/csrf.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="4504" max-vertical-offset="5205">
-              <caret line="485" column="26" selection-start-line="485" selection-start-column="17" selection-end-line="485" selection-end-column="26" />
-              <folding>
-                <element signature="e#1#36#0" expanded="true" />
-                <element signature="e#2485#2784#0" expanded="false" />
-                <element signature="e#2833#2975#0" expanded="false" />
-                <element signature="e#3028#3747#0" expanded="false" />
-                <element signature="e#3787#4057#0" expanded="false" />
-                <element signature="e#5478#7105#0" expanded="false" />
-                <element signature="e#7158#7897#0" expanded="false" />
-                <element signature="e#8628#9629#0" expanded="false" />
-                <element signature="e#10523#11244#0" expanded="false" />
-                <marker date="1434031887541" expanded="true" signature="1494:1550" placeholder="SELECT user_..stream..." />
-                <marker date="1434031887541" expanded="true" signature="12514:12626" placeholder="SELECT id,us..stream..." />
-                <marker date="1434031887541" expanded="true" signature="14084:14265" placeholder="SELECT id,us..stream..." />
-                <marker date="1434031887541" expanded="true" signature="15550:15722" placeholder="SELECT id,us..stream..." />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="383" max-vertical-offset="945">
+              <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lassi/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="695" max-vertical-offset="1275">
+              <caret line="84" column="57" selection-start-line="84" selection-start-column="57" selection-end-line="84" selection-end-column="57" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -74,27 +303,9 @@
       <file leaf-file-name="dash.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/templates/dash/pages/dash.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.365385" vertical-offset="4485" max-vertical-offset="5220">
-              <caret line="333" column="58" selection-start-line="333" selection-start-column="58" selection-end-line="333" selection-end-column="58" />
-              <folding>
-                <element signature="n#button#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#img#0;n#div#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#1;n#div#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#2;n#div#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Alg.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Algorithem/Alg.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
-              <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-              <folding>
-                <element signature="e#98#1499#0" expanded="false" />
-                <element signature="e#1538#1693#0" expanded="false" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="2535" max-vertical-offset="6345">
+              <caret line="176" column="13" selection-start-line="176" selection-start-column="13" selection-end-line="176" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -102,8 +313,8 @@
       <file leaf-file-name="Faker.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Predictor/Faker.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
-              <caret line="11" column="210" selection-start-line="11" selection-start-column="210" selection-end-line="11" selection-end-column="210" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="555">
+              <caret line="11" column="211" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="211" />
               <folding>
                 <marker date="1434033262541" expanded="true" signature="417:602" placeholder="INSERT INTO ..." />
               </folding>
@@ -111,14 +322,53 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StreamReader.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Predictor.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Predictor/Predictor.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2250">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="10" />
+              <folding>
+                <marker date="1434623201753" expanded="true" signature="1843:1894" placeholder="update strea..." />
+                <marker date="1434623201753" expanded="true" signature="1956:2047" placeholder="SELECT id,us..stream..." />
+                <marker date="1434623201753" expanded="true" signature="2953:3045" placeholder="update strea..." />
+                <marker date="1434623201753" expanded="true" signature="3467:3559" placeholder="update strea..." />
+                <marker date="1434623201753" expanded="true" signature="3809:3855" placeholder="update strea..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="galaxyZooGUICheck.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Testing/galaxyZooGUICheck.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="1185">
+              <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+              <folding>
+                <element signature="e#20#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DB.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Testing/DB.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="105">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StreamReader.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/StreamReader/StreamReader.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1185">
-              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.673712" vertical-offset="360" max-vertical-offset="1395">
+              <caret line="60" column="41" selection-start-line="60" selection-start-column="41" selection-end-line="60" selection-end-column="41" />
               <folding>
                 <element signature="e#19#34#0" expanded="true" />
-                <marker date="1434026737145" expanded="true" signature="1295:1415" placeholder="INSERT INTO ..." />
+                <element signature="e#814#929#0" expanded="false" />
+                <marker date="1435689018787" expanded="true" signature="1391:1511" placeholder="INSERT INTO ..." />
               </folding>
             </state>
           </provider>
@@ -126,55 +376,51 @@
       </file>
       <file leaf-file-name="DB Creation" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DB Creation">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.172414" vertical-offset="0" max-vertical-offset="315">
-              <caret line="10" column="19" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
           <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
             <state />
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dis_predictor.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Predictor/dis_predictor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2167" max-vertical-offset="4575">
-              <caret line="310" column="8" selection-start-line="310" selection-start-column="8" selection-end-line="310" selection-end-column="8" />
-              <folding>
-                <element signature="e#25#43#0" expanded="true" />
-                <element signature="e#7249#8726#0" expanded="false" />
-                <element signature="e#8782#17414#0" expanded="false" />
-                <element signature="e#17899#18042#0" expanded="false" />
-                <element signature="e#18076#18176#0" expanded="false" />
-                <element signature="e#18297#18424#0" expanded="false" />
-                <element signature="e#18517#18739#0" expanded="false" />
-                <marker date="1434030090153" expanded="true" signature="2514:2561" placeholder="select * fro..user_cohorts..." />
-                <marker date="1434030090153" expanded="true" signature="2601:2645" placeholder="INSERT INTO ..." />
-                <marker date="1434030090153" expanded="true" signature="2701:2733" placeholder="select * fro..user_interventions..." />
-                <marker date="1434030090153" expanded="true" signature="2873:2920" placeholder="select * fro..user_cohorts..." />
-                <marker date="1434030090153" expanded="true" signature="2959:2986" placeholder="select * fro..user_fe_stats..." />
-                <marker date="1434030090153" expanded="true" signature="3306:3387" placeholder="select * fro..user_session_fe_stats..." />
-                <marker date="1434030090153" expanded="true" signature="3437:3498" placeholder="INSERT INTO ..." />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="495">
+              <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Predictor.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Predictor/Predictor.py">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/incentive/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.016366612" vertical-offset="1235" max-vertical-offset="2115">
-              <caret line="83" column="202" selection-start-line="83" selection-start-column="202" selection-end-line="83" selection-end-column="202" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="2633" max-vertical-offset="3390">
+              <caret line="542" column="24" selection-start-line="542" selection-start-column="24" selection-end-line="542" selection-end-column="85" />
               <folding>
-                <element signature="e#20#34#0" expanded="true" />
-                <marker date="1434035779493" expanded="true" signature="1798:1849" placeholder="update strea..." />
-                <marker date="1434035779493" expanded="true" signature="1911:2002" placeholder="SELECT id,us..stream..." />
-                <marker date="1434035779493" expanded="true" signature="2902:2994" placeholder="update strea..." />
-                <marker date="1434035779493" expanded="true" signature="3417:3435" placeholder="update strea..." />
-                <marker date="1434035779493" expanded="true" signature="3417:3509" placeholder="update strea..." />
-                <marker date="1434035779493" expanded="true" signature="3759:3805" placeholder="update strea..." />
+                <element signature="e#0#31#0" expanded="true" />
+                <element signature="e#1348#1909#0" expanded="false" />
+                <element signature="e#1934#2025#0" expanded="false" />
+                <element signature="e#2056#2148#0" expanded="false" />
+                <element signature="e#2186#2285#0" expanded="false" />
+                <element signature="e#2310#2398#0" expanded="false" />
+                <element signature="e#2552#2851#0" expanded="false" />
+                <element signature="e#2900#3042#0" expanded="false" />
+                <element signature="e#3095#3814#0" expanded="false" />
+                <element signature="e#3854#4124#0" expanded="false" />
+                <element signature="e#5545#7172#0" expanded="false" />
+                <element signature="e#7225#7964#0" expanded="false" />
+                <element signature="e#8695#9696#0" expanded="false" />
+                <element signature="e#9724#10476#0" expanded="false" />
+                <element signature="e#10590#11311#0" expanded="false" />
+                <element signature="e#11345#11882#0" expanded="false" />
+                <element signature="e#11961#12693#0" expanded="false" />
+                <element signature="e#12789#12862#0" expanded="false" />
+                <element signature="e#12914#12972#0" expanded="false" />
+                <element signature="e#13028#14523#0" expanded="false" />
+                <element signature="e#14568#16134#0" expanded="false" />
+                <element signature="e#16177#17547#0" expanded="false" />
+                <marker date="1435087732002" expanded="true" signature="1561:1617" placeholder="SELECT user_..stream..." />
+                <marker date="1435087732002" expanded="true" signature="13359:13471" placeholder="SELECT id,us..stream..." />
+                <marker date="1435087732002" expanded="true" signature="14929:15123" placeholder="SELECT id,us..stream..." />
+                <marker date="1435087732002" expanded="true" signature="16487:16672" placeholder="SELECT id,us..stream..." />
+                <marker date="1435087732002" expanded="true" signature="17904:17965" placeholder="SELECT count..." />
+                <marker date="1435087732002" expanded="true" signature="18273:18334" placeholder="SELECT count..." />
               </folding>
             </state>
           </provider>
@@ -208,16 +454,19 @@
         <option value="$PROJECT_DIR$/src/Algorithem/dis_predictor.py" />
         <option value="$PROJECT_DIR$/src/incentive/runner.py" />
         <option value="$PROJECT_DIR$/static/templates/Dash/pages/dash.html" />
-        <option value="$PROJECT_DIR$/src/Lassi/urls.py" />
         <option value="$PROJECT_DIR$/strmMonit" />
         <option value="$PROJECT_DIR$/predMonit" />
-        <option value="$PROJECT_DIR$/src/DB Creation" />
-        <option value="$PROJECT_DIR$/src/StreamReader/StreamReader.py" />
-        <option value="$PROJECT_DIR$/src/Predictor/dis_predictor.py" />
-        <option value="$PROJECT_DIR$/src/incentive/views.py" />
         <option value="$PROJECT_DIR$/src/Predictor/Faker.py" />
-        <option value="$PROJECT_DIR$/static/templates/dash/pages/dash.html" />
+        <option value="$PROJECT_DIR$/src/Config/Config.py" />
+        <option value="$PROJECT_DIR$/src/Predictor/dis_predictor.py" />
+        <option value="$PROJECT_DIR$/src/Lassi/urls.py" />
         <option value="$PROJECT_DIR$/src/Predictor/Predictor.py" />
+        <option value="$PROJECT_DIR$/static/templates/dash/pages/dash.html" />
+        <option value="$PROJECT_DIR$/Testing/galaxyZooGUICheck.py" />
+        <option value="$PROJECT_DIR$/Testing/DB.txt" />
+        <option value="$PROJECT_DIR$/src/DB Creation" />
+        <option value="$PROJECT_DIR$/src/incentive/views.py" />
+        <option value="$PROJECT_DIR$/src/StreamReader/StreamReader.py" />
       </list>
     </option>
   </component>
@@ -226,9 +475,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
-    <option name="y" value="52" />
-    <option name="width" value="1730" />
-    <option name="height" value="1028" />
+    <option name="y" value="-4" />
+    <option name="width" value="1855" />
+    <option name="height" value="1084" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -253,7 +502,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -300,17 +548,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Predictor" />
+              <option name="myItemId" value="incentive" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lassi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lassi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Testing" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="/usr/bin/python2.7" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
@@ -331,7 +594,7 @@
       <recent name="$PROJECT_DIR$/src/incentive" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Faker">
+  <component name="RunManager" selected="Python.galaxyZooGUICheck">
     <configuration default="false" name="tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -374,26 +637,6 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="Predictor" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Predictor" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Lassi" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Predictor/Predictor.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <RunnerSettings RunnerId="PyDebugRunner" />
-      <ConfigurationWrapper RunnerId="PyDebugRunner" />
-      <method />
-    </configuration>
     <configuration default="false" name="Faker" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -411,6 +654,48 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="StreamReader" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/StreamReader" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Lassi" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/StreamReader/StreamReader.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="galaxyZooGUICheck" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Testing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Lassi" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Testing/galaxyZooGUICheck.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
@@ -499,7 +784,27 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Lassi" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
@@ -525,27 +830,7 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Lassi" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8000" />
-      <option name="host" value="" />
-      <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
-      <option name="runTestServer" value="false" />
-      <option name="runNoReload" value="false" />
-      <option name="useCustomRunCommand" value="false" />
-      <option name="customRunCommand" value="" />
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
     <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
@@ -591,6 +876,20 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Lassi" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -609,20 +908,6 @@
       <option name="TEST_TYPE" value="TEST_SCRIPT" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Lassi" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="ADDITIONAL_ARGS" value="" />
       <method />
     </configuration>
     <configuration default="false" name="Lassi" type="Python.DjangoServer" factoryName="Django server">
@@ -653,19 +938,47 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <list size="5">
+    <configuration default="false" name="Predictor" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="PYTHONIOENCODING" value="UTF-8" />
+        <env name="PYTHONPATH" value="$PROJECT_DIR$/../Lassi:$PROJECT_DIR$/src/incentive:$PROJECT_DIR$/src:$PROJECT_DIR$/../Lassi:$PROJECT_DIR$/src/incentive:$PROJECT_DIR$/src:$PROJECT_DIR$/../Lassi:$PROJECT_DIR$/src/incentive:$PROJECT_DIR$/src:$PROJECT_DIR$/../Lassi:$PROJECT_DIR$/src/incentive:$PROJECT_DIR$/src:$PROJECT_DIR$/../Lassi:$PROJECT_DIR$/src/incentive:$PROJECT_DIR$/src:$PROJECT_DIR$/../Lassi:$PROJECT_DIR$/src/incentive:$PROJECT_DIR$/src" />
+        <env name="PYCHARM_HOSTED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Predictor" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Lassi" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Predictor/Predictor.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Django server.Lassi" />
-      <item index="1" class="java.lang.String" itemvalue="Python.tests" />
-      <item index="2" class="java.lang.String" itemvalue="Python.manage" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Predictor" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Predictor" />
+      <item index="2" class="java.lang.String" itemvalue="Python.tests" />
+      <item index="3" class="java.lang.String" itemvalue="Python.manage" />
       <item index="4" class="java.lang.String" itemvalue="Python.Faker" />
+      <item index="5" class="java.lang.String" itemvalue="Python.StreamReader" />
+      <item index="6" class="java.lang.String" itemvalue="Python.galaxyZooGUICheck" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.manage" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Faker" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Predictor" />
-        <item index="3" class="java.lang.String" itemvalue="Python.tests" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.galaxyZooGUICheck" />
+        <item index="1" class="java.lang.String" itemvalue="Python.manage" />
+        <item index="2" class="java.lang.String" itemvalue="Python.StreamReader" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Faker" />
+        <item index="4" class="java.lang.String" itemvalue="Python.tests" />
       </list>
     </recent_temporary>
   </component>
@@ -683,29 +996,29 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="52" width="1730" height="1028" extended-state="4" />
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33891213" sideWeight="0.49946064" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32776618" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.54309165" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.321875" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17225434" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12021563" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914045" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.321875" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20121951" sideWeight="0.50026953" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32882413" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39853558" sideWeight="0.77238405" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31199187" sideWeight="0.49973047" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -725,9 +1038,9 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20377359" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21905698" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -754,11 +1067,6 @@
           <line>10</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/src/incentive/views.py</url>
-          <line>91</line>
-          <option name="timeStamp" value="56" />
-        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -767,7 +1075,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="69" />
+      <option name="time" value="78" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Python.DjangoServer">
@@ -778,41 +1086,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/incentive/runner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3367" max-vertical-offset="4380">
-          <caret line="257" column="49" selection-start-line="257" selection-start-column="49" selection-end-line="257" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/templates/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Algorithem/dis_predictor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2471" max-vertical-offset="3240">
-          <caret line="190" column="45" selection-start-line="190" selection-start-column="45" selection-end-line="190" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Algorithem/stupidAlg.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1050">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Algorithem/Alg.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="885">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/templates/dash/pages/dash.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="4745" max-vertical-offset="7050">
@@ -826,19 +1099,34 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="5580">
           <caret line="40" column="14" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="14" />
           <folding>
-            <element signature="e#1#36#0" expanded="true" />
-            <element signature="e#2485#2784#0" expanded="false" />
-            <element signature="e#2833#2975#0" expanded="false" />
-            <element signature="e#3028#3747#0" expanded="false" />
-            <element signature="e#3787#4057#0" expanded="false" />
-            <element signature="e#5478#7105#0" expanded="false" />
-            <element signature="e#7158#7897#0" expanded="false" />
-            <element signature="e#8628#9629#0" expanded="false" />
-            <element signature="e#10523#11244#0" expanded="false" />
-            <marker date="1434031887541" expanded="true" signature="1494:1550" placeholder="SELECT user_..stream..." />
-            <marker date="1434031887541" expanded="true" signature="12514:12626" placeholder="SELECT id,us..stream..." />
-            <marker date="1434031887541" expanded="true" signature="14084:14265" placeholder="SELECT id,us..stream..." />
-            <marker date="1434031887541" expanded="true" signature="15550:15722" placeholder="SELECT id,us..stream..." />
+            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#1348#1909#0" expanded="false" />
+            <element signature="e#1934#2025#0" expanded="false" />
+            <element signature="e#2056#2148#0" expanded="false" />
+            <element signature="e#2186#2285#0" expanded="false" />
+            <element signature="e#2310#2398#0" expanded="false" />
+            <element signature="e#2552#2851#0" expanded="false" />
+            <element signature="e#2900#3042#0" expanded="false" />
+            <element signature="e#3095#3814#0" expanded="false" />
+            <element signature="e#3854#4124#0" expanded="false" />
+            <element signature="e#5545#7172#0" expanded="false" />
+            <element signature="e#7225#7964#0" expanded="false" />
+            <element signature="e#8695#9696#0" expanded="false" />
+            <element signature="e#9724#10476#0" expanded="false" />
+            <element signature="e#10590#11311#0" expanded="false" />
+            <element signature="e#11345#11882#0" expanded="false" />
+            <element signature="e#11961#12693#0" expanded="false" />
+            <element signature="e#12789#12862#0" expanded="false" />
+            <element signature="e#12914#12972#0" expanded="false" />
+            <element signature="e#13028#14523#0" expanded="false" />
+            <element signature="e#14568#16134#0" expanded="false" />
+            <element signature="e#16177#17547#0" expanded="false" />
+            <marker date="1435087732002" expanded="true" signature="1561:1617" placeholder="SELECT user_..stream..." />
+            <marker date="1435087732002" expanded="true" signature="13359:13471" placeholder="SELECT id,us..stream..." />
+            <marker date="1435087732002" expanded="true" signature="14929:15123" placeholder="SELECT id,us..stream..." />
+            <marker date="1435087732002" expanded="true" signature="16487:16672" placeholder="SELECT id,us..stream..." />
+            <marker date="1435087732002" expanded="true" signature="17904:17965" placeholder="SELECT count..." />
+            <marker date="1435087732002" expanded="true" signature="18273:18334" placeholder="SELECT count..." />
           </folding>
         </state>
       </provider>
@@ -990,13 +1278,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/incentive/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6321839" vertical-offset="0" max-vertical-offset="522">
-          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/incentive/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.35008976" vertical-offset="0" max-vertical-offset="557">
@@ -1032,13 +1313,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/incentive/runner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1079" max-vertical-offset="1695">
-          <caret line="148" column="15" selection-start-line="148" selection-start-column="15" selection-end-line="148" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Lassi/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="616">
@@ -1053,19 +1327,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lassi/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="798" max-vertical-offset="1320">
-          <caret line="85" column="20" selection-start-line="85" selection-start-column="11" selection-end-line="85" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/predMonit">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
           <caret line="15" column="7" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1080,7 +1345,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.81975734" vertical-offset="473" max-vertical-offset="1050">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1088,7 +1352,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8318891" vertical-offset="0" max-vertical-offset="3270">
           <caret line="37" column="15" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1096,10 +1359,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
           <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-          <folding>
-            <element signature="e#98#1499#0" expanded="false" />
-            <element signature="e#1538#1693#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1107,36 +1366,56 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="3.7966418" vertical-offset="12140" max-vertical-offset="26025">
           <caret line="945" column="36" selection-start-line="945" selection-start-column="36" selection-end-line="945" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/StreamReader/StreamReader.py">
+    <entry file="file://$PROJECT_DIR$/src/incentive/runner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1185">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <element signature="e#19#34#0" expanded="true" />
-            <marker date="1434026737145" expanded="true" signature="1295:1415" placeholder="INSERT INTO ..." />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="825">
+          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DB Creation">
+    <entry file="file://$PROJECT_DIR$/src/Config/Config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.172414" vertical-offset="0" max-vertical-offset="315">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="19" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
         </state>
       </provider>
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Predictor/dis_predictor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.38071066" vertical-offset="765" max-vertical-offset="14040">
+          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/django/db/models/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.73309606" vertical-offset="878" max-vertical-offset="21795">
+          <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/incentive/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21352313" vertical-offset="0" max-vertical-offset="1050">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/django/views/decorators/csrf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="383" max-vertical-offset="945">
+          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Predictor/Faker.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
-          <caret line="11" column="210" selection-start-line="11" selection-start-column="210" selection-end-line="11" selection-end-column="210" />
+          <caret line="11" column="211" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="211" />
           <folding>
             <marker date="1434033262541" expanded="true" signature="417:602" placeholder="INSERT INTO ..." />
           </folding>
@@ -1145,74 +1424,108 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/templates/dash/pages/dash.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.365385" vertical-offset="4485" max-vertical-offset="5220">
-          <caret line="333" column="58" selection-start-line="333" selection-start-column="58" selection-end-line="333" selection-end-column="58" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="2535" max-vertical-offset="6345">
+          <caret line="176" column="13" selection-start-line="176" selection-start-column="13" selection-end-line="176" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Testing/DB.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="105">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Testing/galaxyZooGUICheck.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="1185">
+          <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
           <folding>
-            <element signature="n#button#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#div#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#1;n#div#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#2;n#div#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#20#35#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DB Creation">
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="495">
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lassi/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="695" max-vertical-offset="1275">
+          <caret line="84" column="57" selection-start-line="84" selection-start-column="57" selection-end-line="84" selection-end-column="57" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/incentive/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="4504" max-vertical-offset="5205">
-          <caret line="485" column="26" selection-start-line="485" selection-start-column="17" selection-end-line="485" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="2633" max-vertical-offset="3390">
+          <caret line="542" column="24" selection-start-line="542" selection-start-column="24" selection-end-line="542" selection-end-column="85" />
           <folding>
-            <element signature="e#1#36#0" expanded="true" />
-            <element signature="e#2485#2784#0" expanded="false" />
-            <element signature="e#2833#2975#0" expanded="false" />
-            <element signature="e#3028#3747#0" expanded="false" />
-            <element signature="e#3787#4057#0" expanded="false" />
-            <element signature="e#5478#7105#0" expanded="false" />
-            <element signature="e#7158#7897#0" expanded="false" />
-            <element signature="e#8628#9629#0" expanded="false" />
-            <element signature="e#10523#11244#0" expanded="false" />
-            <marker date="1434031887541" expanded="true" signature="1494:1550" placeholder="SELECT user_..stream..." />
-            <marker date="1434031887541" expanded="true" signature="12514:12626" placeholder="SELECT id,us..stream..." />
-            <marker date="1434031887541" expanded="true" signature="14084:14265" placeholder="SELECT id,us..stream..." />
-            <marker date="1434031887541" expanded="true" signature="15550:15722" placeholder="SELECT id,us..stream..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Predictor/dis_predictor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2167" max-vertical-offset="4575">
-          <caret line="310" column="8" selection-start-line="310" selection-start-column="8" selection-end-line="310" selection-end-column="8" />
-          <folding>
-            <element signature="e#25#43#0" expanded="true" />
-            <element signature="e#7249#8726#0" expanded="false" />
-            <element signature="e#8782#17414#0" expanded="false" />
-            <element signature="e#17899#18042#0" expanded="false" />
-            <element signature="e#18076#18176#0" expanded="false" />
-            <element signature="e#18297#18424#0" expanded="false" />
-            <element signature="e#18517#18739#0" expanded="false" />
-            <marker date="1434030090153" expanded="true" signature="2514:2561" placeholder="select * fro..user_cohorts..." />
-            <marker date="1434030090153" expanded="true" signature="2601:2645" placeholder="INSERT INTO ..." />
-            <marker date="1434030090153" expanded="true" signature="2701:2733" placeholder="select * fro..user_interventions..." />
-            <marker date="1434030090153" expanded="true" signature="2873:2920" placeholder="select * fro..user_cohorts..." />
-            <marker date="1434030090153" expanded="true" signature="2959:2986" placeholder="select * fro..user_fe_stats..." />
-            <marker date="1434030090153" expanded="true" signature="3306:3387" placeholder="select * fro..user_session_fe_stats..." />
-            <marker date="1434030090153" expanded="true" signature="3437:3498" placeholder="INSERT INTO ..." />
+            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#1348#1909#0" expanded="false" />
+            <element signature="e#1934#2025#0" expanded="false" />
+            <element signature="e#2056#2148#0" expanded="false" />
+            <element signature="e#2186#2285#0" expanded="false" />
+            <element signature="e#2310#2398#0" expanded="false" />
+            <element signature="e#2552#2851#0" expanded="false" />
+            <element signature="e#2900#3042#0" expanded="false" />
+            <element signature="e#3095#3814#0" expanded="false" />
+            <element signature="e#3854#4124#0" expanded="false" />
+            <element signature="e#5545#7172#0" expanded="false" />
+            <element signature="e#7225#7964#0" expanded="false" />
+            <element signature="e#8695#9696#0" expanded="false" />
+            <element signature="e#9724#10476#0" expanded="false" />
+            <element signature="e#10590#11311#0" expanded="false" />
+            <element signature="e#11345#11882#0" expanded="false" />
+            <element signature="e#11961#12693#0" expanded="false" />
+            <element signature="e#12789#12862#0" expanded="false" />
+            <element signature="e#12914#12972#0" expanded="false" />
+            <element signature="e#13028#14523#0" expanded="false" />
+            <element signature="e#14568#16134#0" expanded="false" />
+            <element signature="e#16177#17547#0" expanded="false" />
+            <marker date="1435087732002" expanded="true" signature="1561:1617" placeholder="SELECT user_..stream..." />
+            <marker date="1435087732002" expanded="true" signature="13359:13471" placeholder="SELECT id,us..stream..." />
+            <marker date="1435087732002" expanded="true" signature="14929:15123" placeholder="SELECT id,us..stream..." />
+            <marker date="1435087732002" expanded="true" signature="16487:16672" placeholder="SELECT id,us..stream..." />
+            <marker date="1435087732002" expanded="true" signature="17904:17965" placeholder="SELECT count..." />
+            <marker date="1435087732002" expanded="true" signature="18273:18334" placeholder="SELECT count..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Predictor/Predictor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.016366612" vertical-offset="1235" max-vertical-offset="2115">
-          <caret line="83" column="202" selection-start-line="83" selection-start-column="202" selection-end-line="83" selection-end-column="202" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2250">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="10" />
           <folding>
-            <element signature="e#20#34#0" expanded="true" />
-            <marker date="1434035779493" expanded="true" signature="1798:1849" placeholder="update strea..." />
-            <marker date="1434035779493" expanded="true" signature="1911:2002" placeholder="SELECT id,us..stream..." />
-            <marker date="1434035779493" expanded="true" signature="2902:2994" placeholder="update strea..." />
-            <marker date="1434035779493" expanded="true" signature="3417:3435" placeholder="update strea..." />
-            <marker date="1434035779493" expanded="true" signature="3417:3509" placeholder="update strea..." />
-            <marker date="1434035779493" expanded="true" signature="3759:3805" placeholder="update strea..." />
+            <marker date="1434623201753" expanded="true" signature="1843:1894" placeholder="update strea..." />
+            <marker date="1434623201753" expanded="true" signature="1956:2047" placeholder="SELECT id,us..stream..." />
+            <marker date="1434623201753" expanded="true" signature="2953:3045" placeholder="update strea..." />
+            <marker date="1434623201753" expanded="true" signature="3467:3559" placeholder="update strea..." />
+            <marker date="1434623201753" expanded="true" signature="3809:3855" placeholder="update strea..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StreamReader/StreamReader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.673712" vertical-offset="360" max-vertical-offset="1395">
+          <caret line="60" column="41" selection-start-line="60" selection-start-column="41" selection-end-line="60" selection-end-column="41" />
+          <folding>
+            <element signature="e#19#34#0" expanded="true" />
+            <element signature="e#814#929#0" expanded="false" />
+            <marker date="1435689018787" expanded="true" signature="1391:1511" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>

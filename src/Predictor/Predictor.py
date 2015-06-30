@@ -7,10 +7,12 @@ from dis_predictor import dis_predictor
 import datetime
 import logging
 from logging.handlers import RotatingFileHandler
+from Config import Config as mconf
+cnf = mconf.Config().conf
 
 log_formatter = logging.Formatter('%(asctime)s %(levelname)s %(funcName)s(%(lineno)d) %(message)s')
-logFile = '/home/ise/Logs/predictor.log'
-#logFile = '/home/eran/Documents/Logs/predicator.log'
+#logFile = '/home/ise/Logs/predictor.log'
+logFile = cnf['predLog']
 
 my_handler = RotatingFileHandler(logFile, mode='a', maxBytes=1*1024*1024, backupCount=50, encoding=None, delay=0)
 my_handler.setFormatter(log_formatter)
@@ -19,7 +21,6 @@ my_handler.setLevel(logging.INFO)
 app_log = logging.getLogger('root')
 app_log.setLevel(logging.INFO)
 app_log.addHandler(my_handler)
-
 
 Alg = None
 
@@ -47,7 +48,7 @@ def main():
 
 def prediction_loop():
     try:
-        conn = MySQLdb.connect(host="localhost", user="root", passwd="9670", db="streamer")
+        conn = MySQLdb.connect(host=cnf['host'], user=cnf['user'], passwd=cnf['password'], db=cnf['db'])
         conn.autocommit(True)
         cursor = conn.cursor()
     except:
@@ -67,10 +68,11 @@ def prediction_loop():
                 for row in rows:
                     try:
                         id = row[0]
-                        if id == "Not Logged In":
-                            continue
                         user_id = row[1]
                         created_at = row[2]
+                        if user_id == "Not Logged In":
+                            continue
+
                         created_at = created_at.strftime('%Y-%m-%d %H:%M:%S')
                         incentive = Alg.intervene(user_id, created_at)
                         if incentive[0] > 0:
@@ -79,7 +81,7 @@ def prediction_loop():
                             cursor.execute("update stream set preconfigured_id=%s,cohort_id=%s,algo_info=%s,intervention_id=%s where id=%s", (incentive[0],incentive[1],incentive[2],intervention_id, id))
                             app_log.info("done execute\n")
                         else:
-                            intervention_id = "None."
+                            intervention_id = "None"
                             app_log.info("User:" + user_id + " intervention_id: " + intervention_id + " preconfigured_id:%s cohort_id: %s"%(incentive[0], incentive[1]))
                             cursor.execute("update stream set preconfigured_id=%s,cohort_id=%s,algo_info=%s,intervention_id=%s where id=%s", (incentive[0],incentive[1],incentive[2],intervention_id, id))
                             app_log.info("done execute\n")
@@ -111,14 +113,21 @@ def send_intervention_for_user(user_id,preconfigured_id,cohort_id):
             "cohort_id": cohort_id,
             "time_duration": 120,
             "presentation_duration": 30,
-            "intervention_channel": "web model",
+            "intervention_channel": "web message",
             "take_action": "after_next_classification",
-            "preconfigured_id": preconfigured_id
+            "preconfigured_id": preconfigured_id,
+            "experiment_name": "Zooniverse-MSR-BGU GalaxyZoo Experiment 1"
+
         }
 
         request = c.post(url, data=payload)
         # app_log.info('send_intervention_for_user(' + userId + '):' + request.content
         try:
+            if request.status_code == 500:
+                content = json.loads(request.content)
+                app_log.info('ERROR: Invalid Parameters Sent, send_intervention_for_user(' + user_id + '):'+content)
+                return "-1"
+
             content = json.loads(request.content)
             intervention_id = content['id']
             app_log.info('SUCCESS send_intervention_for_user(' + user_id + '):' + intervention_id)

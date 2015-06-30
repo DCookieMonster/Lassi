@@ -83,7 +83,7 @@
             </div>
             <!-- /.navbar-header -->
 
-         
+
             <!-- /.navbar-top-links -->
 
         </nav>
@@ -111,11 +111,12 @@
                                         <tr>
                                             <th >User ID</th>
                                             <th data-field="cat1" data-sortable="true" data-visible="false">Created At</th>
+                                            <th >Country</th>
                                             <th >Intervention</th>
-                                            <th >Preconfigured Id</th>
-                                            <th >Cohort id</th>
+                                            <th >Preconfigured ID</th>
+                                            <th >Cohort ID</th>
                                             <th >Algo Info</th>
-                                            <th >Id</th>
+                                            <th >DB ID</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -129,12 +130,12 @@
                                     <!---->
                                             <!--<td class="center">Leaving in 5 minutes -> send intervention</td>-->
                                         <!--</tr>-->
-                                      
+
                                     </tbody>
                                 </table>
                             </div>
                             <!-- /.table-responsive -->
-                          
+
                         </div>
                         <!-- /.panel-body -->
                     </div>
@@ -162,17 +163,17 @@
                 <!-- /.col-lg-8 -->
                 <div class="col-lg-4">
                  <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <i class="fa fa-bar-chart-o fa-fw"></i> Predicted Leaving vs Staying
+                        <div class="panel-heading" >
+                            <i class="fa fa-bar-chart-o fa-fw" ></i> Predicted Leaving vs Staying
                         </div>
-                        <div class="panel-body">
+                        <div class="panel-body" >
                             <div id="morris-donut-chart"></div>
                         </div>
                         <!-- /.panel-body -->
                     </div>
-                   
-                   
-                      
+
+
+
                     </div>
                     <!-- /.panel .chat-panel -->
                 </div>
@@ -234,6 +235,64 @@
         });
     });
 
+    var bar=Morris.Bar({
+            element: 'morris-bar-chart',
+            data: [{
+                y: 'Email',
+                a: 0
+            }, {
+                y: 'Pop-up',
+                a: 0
+            },
+                {
+                    y: 'Message Box',
+                    a: 0
+                }],
+            xkey: 'y',
+            ykeys: ['a'],
+            labels: ['Numbers'],
+            hideHover: 'auto',
+            resize: true,
+            barColors: function (row, series, type) {
+                if(row.label == "Pop-up") return "#CB7D00";
+                else if(row.label == "Email") return "#FF9E00";
+                else if(row.label == "Message Box") return "#905900";
+            }
+    });
+
+    var don=Morris.Donut({
+            element: 'morris-donut-chart',
+            data: [{
+                label: "Leaving",
+                value: 36
+            }, {
+                label: "Staying",
+                value: 74
+            }],
+            resize: true,
+            colors:["#8A0808","#088A29"],
+            formatter:function (y, data) { return  y+"%" }
+    });
+
+    function Donut(){
+              $.ajax({
+                  url: '/disratio/',
+                  async: true,
+                  method: 'GET',
+                  success: function (msg) {
+                      var arr=  JSON.parse(msg);
+                      var leaving = (JSON.parse(arr[0]).l*100).toFixed(3);
+                      var staying = (JSON.parse(arr[0]).s*100).toFixed(3);
+                       don.setData([
+
+                {label: "Leaving", value: leaving},
+                {label: "Staying", value: staying}
+            ]);
+                  },error: function(xhr, status, error) {
+                        alert(xhr.responseText);
+                    }
+              });
+    }
 
 
 
@@ -267,12 +326,14 @@
                             table2.row.add([
                                         entry['user_id'],
                                         entry['created_at'],
+                                        entry['country_name'],
                                         entry['intervention_id'],
                                         entry['preconfigured_id'],
                                         entry['cohort_id'],
                                         entry['algo_info'],
                                                entry['id']+ ""]
                             ).order( [[ 1, 'desc' ]] ).draw(false);
+                            Donut();
                         }
                     });
                     }
@@ -283,11 +344,13 @@
                         table2.row.add([
                             entry['user_id'],
                             entry['created_at'],
+                            entry['country_name'],
                             entry['intervention_id'],
                             entry['preconfigured_id'],
                             entry['cohort_id'],
                             entry['algo_info'],entry['id']+""]
                                   ).order( [[ 1, 'desc' ]] ).draw(false);
+                        Donut();
                     }
                     setTimeout(get_gt_id, 500);
                 },
@@ -314,11 +377,13 @@
                                 table2.row.add([
                                             entry['user_id'],
                                             entry['created_at'],
+                                            entry['country_name'],
                                             entry['intervention_id'],
                                             entry['preconfigured_id'],
                                             entry['cohort_id'],
                                             entry['algo_info'],entry['id']+ ""]
                                 ).order( [[ 1, 'desc' ]] ).draw(false);
+                                Donut();
                             }
                         });
                     }else{
@@ -328,17 +393,23 @@
                         table2.row.add([
                             entry['user_id'],
                             entry['created_at'],
+                            entry['country_name'],
                             entry['intervention_id'],
                             entry['preconfigured_id'],
                             entry['cohort_id'],
                             entry['algo_info'],entry['id']+ ""]
                                   ).order( [[ 1, 'desc' ]] ).draw(false);
+                        Donut();
                     }
+                    setTimeout(get_gt_id, 500);
+                },
+                error: function() {
+                    setTimeout(get_gt_id, 500);
                 }
             });
-            setTimeout(get_gt_id, 500);
         }
         get_by_date();
+        setTimeout(Donut, 500);
     </script>
 
 

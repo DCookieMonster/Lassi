@@ -74,9 +74,7 @@ urlpatterns = [
     url(r'^profile/', 'incentive.views.userProfile', name='profile_page'),
     url(r'^startAlg/', 'incentive.runner.startAlg', name='startAlg'),
     url(r'^predicting/', 'incentive.runner.getTheBestForTheUser', name='predicting'),
-    url(r'^disratio/', 'incentive.runner.GiveRatio', name='disratio'),
 
-    # url(r'^getInc/', 'incentive.runner.getRatedIncentives', name='getInc'),
     url(r'^getIncUser/$', 'incentive.views.getUserID', name='getIncUser'),
     url(r'^dash/pages/dash.html', views.dash,name='dash'),
     url(r'^dashStream/$', views.dashStream,name='dashStream'),
@@ -84,8 +82,7 @@ urlpatterns = [
     url(r'^dash/pages/streamResponse/', views.stream_response,name='streamResponse'),
     url(r'^ask_by_date/$', views.ask_by_date,name='ask_by_date'),
     url(r'^ask_gt_id/$', views.ask_gt_id,name='ask_gt_id'),
-    #url(r'^streamResponse/$', views.stream_response,name='streamResponse'),
-
+    url(r'^disratio/$', views.GiveRatio,name='disratio'),
 
 ]
 

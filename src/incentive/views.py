@@ -1,4 +1,4 @@
-
+from __future__ import division
 from django.contrib import messages
 
 from django.contrib.auth.models import User, Group
@@ -31,6 +31,7 @@ import MySQLdb
 from forms import IncentiveFrom
 from json import JSONEncoder
 import datetime
+from Predictor import dis_predictor
 
 
 @csrf_exempt
@@ -361,7 +362,31 @@ def userProfile(request):
     )
 
 from django.views.decorators.http import condition
+class Config(object):
+    conf = dict()
+    #conf['clfFile'] ='/home/ise/Model/dismodel.pkl'
+    #conf['clfFile'] ='/Users/avisegal/models/dtew/dismodel.pkl'
+    conf['clfFile'] ='/home/eran/Documents/Lassi/src/Algorithem/Model/dismodel.pkl'
 
+    #conf['strmLog'] = '/home/ise/Logs/streamer.log'
+    conf['strmLog'] = '/home/eran/Documents/Logs/streamer.log'
+
+    #conf['predLog'] = '/home/ise/Logs/predictor.log'
+    conf['predLog'] = '/home/eran/Documents/Logs/predictor.log'
+
+    #conf['dis_predLog'] = '/home/ise/Logs/dis_predictor.log'
+    conf['dis_predLog'] = '/home/eran/Documents/Logs/dis_predictor.log'
+
+    conf['debug'] = False
+
+    conf['user'] = 'root'
+
+    conf['password'] = '9670'
+
+    conf['host'] = 'localhost'
+
+    conf['db'] = 'streamer'
+cnf = Config().conf
 
 @condition(etag_func=None)
 @csrf_exempt
@@ -423,13 +448,13 @@ def ask_by_date(request):
     search = True
     response =[]
     while search:
-        cursor.execute('SELECT id,user_id,created_at,intervention_id,preconfigured_id,cohort_id,algo_info FROM stream WHERE (local_time>"%s")  and (user_id!="Not Logged In") and intervention_id is Not NULL'%local_time)
+        cursor.execute('SELECT id,user_id,created_at,intervention_id,preconfigured_id,cohort_id,algo_info,country_name FROM stream WHERE (local_time>"%s")  and (user_id!="Not Logged In") and intervention_id is Not NULL'%local_time)
         rows = cursor.fetchall()
         if len(rows) == 0:
             continue
         search = False
         for row in rows:
-            if (row is None) or (len(row) < 7):
+            if (row is None) or (len(row) < 8):
                 continue
             id = row[0]
             user_id = row[1]
@@ -438,14 +463,16 @@ def ask_by_date(request):
             preconfigured_id = row[4]
             cohort_id = row[5]
             algo_info = row[6]
+            country_name = row[7]
             jsonToSend = JSONEncoder().encode({
-                "id": str(id),
+                "id": id,
                 "user_id": str(user_id),
                 "created_at": str(created_at),
                 "intervention_id": str(intervention_id),
                 "preconfigured_id": str(preconfigured_id),
                 "cohort_id": str(cohort_id),
-                "algo_info": str(algo_info)
+                "algo_info": str(algo_info),
+                "country_name":str(country_name)
             })
             response.append(jsonToSend)
             response.append('\n')
@@ -464,10 +491,10 @@ def ask_gt_id(request):
     except:
         return HttpResponseBadRequest()
     response =[]
-    cursor.execute('SELECT id,user_id,created_at,intervention_id,preconfigured_id,cohort_id,algo_info FROM stream WHERE (id>"%s") and (user_id!="Not Logged In") and intervention_id is Not NULL'%record_id)
+    cursor.execute('SELECT id,user_id,created_at,intervention_id,preconfigured_id,cohort_id,algo_info,country_name FROM stream WHERE (id>"%s") and (user_id!="Not Logged In") and intervention_id is Not NULL'%record_id)
     rows = cursor.fetchall()
     for row in rows:
-        if (row is None) or (len(row) < 7):
+        if (row is None) or (len(row) < 8):
             continue
         id = row[0]
         user_id = row[1]
@@ -476,15 +503,60 @@ def ask_gt_id(request):
         preconfigured_id = row[4]
         cohort_id = row[5]
         algo_info = row[6]
+        country_name = row[7]
         jsonToSend = JSONEncoder().encode({
-                "id": str(id),
+                "id": id,
                 "user_id": str(user_id),
                 "created_at": str(created_at),
                 "intervention_id": str(intervention_id),
                 "preconfigured_id": str(preconfigured_id),
                 "cohort_id": str(cohort_id),
-                "algo_info": str(algo_info)
+                "algo_info": str(algo_info),
+                "country_name":str(country_name)
         })
         response.append(jsonToSend)
         response.append('\n')
     return HttpResponse(response)
+
+@csrf_exempt
+def GiveRatio(request):
+    print "Give Ratio Requested"
+    ones = 0
+    zeros = 0
+    l = 0# "1.0"/"1.0"+"0.0"
+    s = 0# "0.0"/"1.0"+"0.0"
+    try:
+        conn = MySQLdb.connect(host=cnf['host'], user=cnf['user'], passwd=cnf['password'], db=cnf['db'])
+        conn.autocommit(True)
+        cursor = conn.cursor()
+
+        cursor.execute('SELECT  count(*) AS count  FROM stream WHERE algo_info =  "1"')
+        rows = cursor.fetchall()
+        if len(rows) == 0:
+            return JSONResponse('{"DB":"Unable to read db"}')
+        for row in rows:
+            try:
+                ones = row[0]
+            except:
+                return JSONResponse('{"DB":"Unable to read db"}')
+
+        cursor.execute('SELECT  count(*) AS count  FROM stream WHERE algo_info =  "0"')
+        rows = cursor.fetchall()
+        if len(rows) == 0:
+            return JSONResponse('{"DB":"Unable to read db"}')
+        for row in rows:
+            try:
+                zeros = row[0]
+            except:
+                return JSONResponse('{"DB":"Unable to read db"}')
+        if(ones>0  or zeros>0):
+            l = ones/(ones+zeros)
+            s = zeros/(ones+zeros)
+
+        ratio = []
+        ratio.append("{\"l\":" + str(l) + ",\"s\":" + str(s) + "}")
+        jsonIncentive = json.dumps(ratio)
+        print jsonIncentive
+        return JSONResponse(jsonIncentive)
+    except:
+        return JSONResponse('{"DB":"Error"}')

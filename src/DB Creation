@@ -13,3 +13,16 @@ CREATE TABLE IF NOT EXISTS `stream` (
   `algo_info` varchar(250) DEFAULT NULL,
   PRIMARY KEY (`id`)
 );
+
+
+drop table user_session_debug;
+drop table user_cohorts;
+drop table user_interventions;
+drop table user_fe_stats;
+drop table user_session_fe_stats;
+
+CREATE TABLE user_session_debug (user_id int(11) NOT NULL, session_id int(11) NOT NULL, session_duration int(11) NOT NULL, PRIMARY KEY (user_id, session_id));
+CREATE TABLE user_cohorts (user_id int(11) NOT NULL, user_original_id varchar(255) NOT NULL, cohort_id int(11) NOT NULL,PRIMARY KEY (user_id));
+CREATE TABLE user_interventions (user_id int(11) NOT NULL, session_id int(11) NOT NULL, time_from_session_start int(11) NOT NULL, prediction_prob FLOAT NOT NULL,PRIMARY KEY (user_id, session_id));
+CREATE TABLE user_fe_stats (user_id int(11) NOT NULL, total_sessions int(11) NOT NULL, total_tasks int(11) NOT NULL, total_time int(11) NOT NULL, total_dwell int(11) NOT NULL, PRIMARY KEY (user_id));
+CREATE TABLE user_session_fe_stats (user_id int(11) NOT NULL, session_id int(11) NOT NULL, session_time int(11) NOT NULL, session_avg_dwell_time FLOAT NOT NULL, session_tasks int(11) NOT NULL, PRIMARY KEY(user_id, session_id));
